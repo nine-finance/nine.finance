@@ -45,7 +45,7 @@
 
     {% elif timeline.position == "2nd"%}
         <div class="item-c">
-            <img class="card-img-top1" src="{{ timeline.media}}" alt="timeline media">
+            <img class="card-img-top1" src="{{ timeline.media.url}}" alt="timeline media">
             <div class="card-body">
                 <small class="card-subtitle text-muted">
                     {{ timeline.date|date:'F, Y'}}
