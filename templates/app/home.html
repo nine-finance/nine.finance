@@ -1,0 +1,332 @@
+{% extends "app/base.html" %}
+{% block content %}
+    {% for timeline in times %}
+    {% if timeline.position == "1st" %}
+        <div class="item-b">
+            <img class="card-img-top" src="{{ timeline.media.url }}" alt="timeline media">
+            <div class="card-body">
+                <small class="card-subtitle text-muted">
+                    {{ timeline.date|date:'F, Y'}}
+                </small>
+            </div>
+        </div>
+    {% elif timeline.position == "1stC" %}
+       <div class="item-b1 slideshow">
+               <div class="slider"> <h5>{{timeline.title }}</h5> </div>
+               <div class="slider"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
+               <div class="slider"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
+               <div class="slider"><p><q><i>{{ timeline.content3 }}</i></q></p> </div>
+           <article>
+               <a class="prev" style="color: #cbd5db; cursor: pointer; position: absolute; ;" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" style="color: #cbd5db; cursor: pointer; position: absolute; ; " onclick="plusSlides(1)">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;</a>
+           </article>
+       </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+            function showSlides(n) {
+                let i;
+                const slides = document.getElementsByClassName("slider");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+        </script>
+
+
+    {% elif timeline.position == "2nd"%}
+        <div class="item-c">
+            <img class="card-img-top1" src="{{ timeline.media}}" alt="timeline media">
+            <div class="card-body">
+                <small class="card-subtitle text-muted">
+                    {{ timeline.date|date:'F, Y'}}
+                </small>
+            </div>
+        </div>
+    {% elif timeline.position == "2ndC" %}
+        <div class="item-c1 slideshow">
+            <div class="slider2"> <h5>{{timeline.title }}</h5> </div>
+            <div class="slider2"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
+            <div class="slider2"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
+            <div class="slider2"><p><q><i>{{ timeline.content3 }}</i></q></p> </div>
+           <article>
+               <a class="prev" style="color: #cbd5db; cursor: pointer; position: absolute; ;" onclick="plusSlides2(-1)">&#10094;</a>
+               <a class="next" style="color: #cbd5db; cursor: pointer; position: absolute; ; " onclick="plusSlides2(1)">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;</a>
+           </article>
+        </div>
+        <script>
+            let slideIndex2 = 1;
+            showSlides2(slideIndex2);
+            function plusSlides2(f) {
+                showSlides2(slideIndex2 += f);
+            }
+            function currentSlide2(f) {
+                showSlides2(slideIndex2 = f);
+            }
+            function showSlides2(f) {
+                let a;
+                const slides2 = document.getElementsByClassName("slider2");
+                if (f > slides2.length) {slideIndex2 = 1}
+                if (f < 1) {slideIndex2 = slides2.length}
+                for (a = 0; a < slides2.length; a++) {
+                  slides2[a].style.display = "none";
+                }
+                slides2[slideIndex2-1].style.display = "block";
+            }
+        </script>
+    {% elif timeline.position == "3rd"%}
+        <div class="item-d">
+            <img class="card-img-top1" src="{{ timeline.media.url }}" alt="timeline media">
+            <div class="card-body">
+                <small class="card-subtitle text-muted">
+                    {{ timeline.date|date:'F, Y'}}
+                </small>
+            </div>
+        </div>
+    {% elif timeline.position == "3rdC" %}
+        <div class="item-d1 slideshow">
+            <div class="slider3"> <h5>{{timeline.title }}</h5> </div>
+            <div class="slider3"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
+            <div class="slider3"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
+            <div class="slider3"><p><q><i>{{ timeline.content3 }}</i></q></p> </div>
+           <article>
+               <a class="prev" style="color: #cbd5db; cursor: pointer; position: absolute; ;" onclick="plusSlides3(-1)">&#10094;</a>
+               <a class="next" style="color: #cbd5db; cursor: pointer; position: absolute; ; " onclick="plusSlides3(1)">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;</a>
+           </article>
+        </div>
+        <script>
+            let slideIndex3 = 1;
+            showSlides3(slideIndex3);
+            function plusSlides3(a) {
+                showSlides3(slideIndex3 += a);
+            }
+            function currentSlide3(a) {
+                showSlides3(slideIndex3 = a);
+            }
+            function showSlides3(a) {
+                let b;
+                const slides3 = document.getElementsByClassName("slider3");
+                if (a > slides3.length) {slideIndex3 = 1}
+                if (a < 1) {slideIndex3 = slides3.length}
+                for (b = 0; b < slides3.length; b++) {
+                  slides3[b].style.display = "none";
+                }
+                slides3[slideIndex3-1].style.display = "block";
+            }
+        </script>
+    {% elif timeline.position == "4th"%}
+        <div class="item-e">
+            <img class="card-img-top1" src="{{ timeline.media.url }}" alt="timeline media">
+            <div class="card-body">
+                <small class="card-subtitle text-muted">
+                    {{ timeline.date|date:'F, Y'}}
+                </small>
+            </div>
+        </div>
+    {% elif timeline.position == "4thC" %}
+        <div class="item-e1 slideshow">
+            <div class="slider4"> <h5>{{timeline.title }}</h5> </div>
+            <div class="slider4"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
+            <div class="slider4"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
+            <div class="slider4"><p><q><i>{{ timeline.content3 }}</i></q></p> </div>
+           <article>
+               <a class="prev" style="color: #cbd5db; cursor: pointer; position: absolute; ;" onclick="plusSlides4(-1)">&#10094;</a>
+               <a class="next" style="color: #cbd5db; cursor: pointer; position: absolute; ; " onclick="plusSlides4(1)">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;</a>
+           </article>
+        </div>
+        <script>
+            let slideIndex4 = 1;
+            showSlides4(slideIndex4);
+            function plusSlides4(b) {
+                showSlides4(slideIndex4 += b);
+            }
+            function currentSlide4(b) {
+                showSlides4(slideIndex4 = b);
+            }
+            function showSlides4(b) {
+                let c;
+                const slides4 = document.getElementsByClassName("slider4");
+                if (b > slides4.length) {slideIndex4 = 1}
+                if (b < 1) {slideIndex4 = slides4.length}
+                for (c = 0; c < slides4.length; c++) {
+                  slides4[c].style.display = "none";
+                }
+                slides4[slideIndex4-1].style.display = "block";
+            }
+        </script>
+    {% elif timeline.position == "5th"%}
+        <div class="item-f">
+            <img class="card-img-top" src="{{ timeline.media.url }}" alt="timeline media">
+            <div class="card-body">
+                <small class="card-subtitle text-muted">
+                    {{ timeline.date|date:'F, Y'}}
+                </small>
+            </div>
+        </div>
+    {% elif timeline.position == "5thC" %}
+        <div class="item-f1">
+            <div class="slider5"> <h5>{{timeline.title }}</h5> </div>
+            <div class="slider5"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
+            <div class="slider5"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
+            <div class="slider5"><p><q><i>{{ timeline.content3 }}</i></q></p> </div>
+           <article>
+               <a class="prev" style="color: #cbd5db; cursor: pointer; position: absolute; ;" onclick="plusSlides5(-1)">&#10094;</a>
+               <a class="next" style="color: #cbd5db; cursor: pointer; position: absolute; ; " onclick="plusSlides5(1)">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;</a>
+           </article>
+        </div>
+        <script>
+            let slideIndex5 = 1;
+            showSlides5(slideIndex5);
+            function plusSlides5(c) {
+                showSlides5(slideIndex5 += c);
+            }
+            function currentSlide5(c) {
+                showSlides5(slideIndex5 = c);
+            }
+            function showSlides5(c) {
+                let d;
+                const slides5 = document.getElementsByClassName("slider5");
+                if (c > slides5.length) {slideIndex5 = 1}
+                if (c < 1) {slideIndex5 = slides5.length}
+                for (d = 0; d < slides5.length; d++) {
+                  slides5[d].style.display = "none";
+                }
+                slides5[slideIndex5-1].style.display = "block";
+            }
+        </script>
+    {% elif timeline.position == "6th"%}
+        <div class="item-g">
+            <img class="card-img-top" src="{{ timeline.media.url }}" alt="timeline media">
+            <div class="card-body">
+                <small class="card-subtitle text-muted">
+                    {{ timeline.date|date:'F, Y'}}
+                </small>
+            </div>
+        </div>
+    {% elif timeline.position == "6thC" %}
+        <div class="item-g1">
+            <div class="slider6"> <h5>{{timeline.title }}</h5> </div>
+            <div class="slider6"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
+            <div class="slider6"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
+            <div class="slider6"><p><q><i>{{ timeline.content3 }}</i></q></p> </div>
+           <article>
+               <a class="prev" style="color: #cbd5db; cursor: pointer; position: absolute; ;" onclick="plusSlides6(-1)">&#10094;</a>
+               <a class="next" style="color: #cbd5db; cursor: pointer; position: absolute; ; " onclick="plusSlides6(1)">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;</a>
+           </article>
+        </div>
+        <script>
+            let slideIndex6 = 1;
+            showSlides6(slideIndex6);
+            function plusSlides6(d) {
+                showSlides6(slideIndex6 += d);
+            }
+            function currentSlide6(d) {
+                showSlides6(slideIndex6 = d);
+            }
+            function showSlides6(d) {
+                let e;
+                const slides6 = document.getElementsByClassName("slider6");
+                if (d > slides6.length) {slideIndex6 = 1}
+                if (d < 1) {slideIndex6 = slides6.length}
+                for (e = 0; e < slides6.length; e++) {
+                  slides6[e].style.display = "none";
+                }
+                slides6[slideIndex6-1].style.display = "block";
+            }
+        </script>
+    {% elif timeline.position == "7th"%}
+        <div class="item-h">
+            <img class="card-img-top" src="{{ timeline.media.url }}" alt="timeline media">
+            <div class="card-body">
+                <small class="card-subtitle text-muted">
+                    {{ timeline.date|date:'F, Y'}}
+                </small>
+            </div>
+        </div>
+    {% elif timeline.position == "7thC" %}
+        <div class="item-h1">
+            <div class="slider7"> <h5>{{timeline.title }}</h5> </div>
+            <div class="slider7"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
+            <div class="slider7"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
+            <div class="slider7"><p><q><i>{{ timeline.content3 }}</i></q></p> </div>
+           <article>
+               <a class="prev" style="color: #cbd5db; cursor: pointer; position: absolute; ;" onclick="plusSlides7(-1)">&#10094;</a>
+               <a class="next" style="color: #cbd5db; cursor: pointer; position: absolute; ; " onclick="plusSlides7(1)">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;</a>
+           </article>
+        </div>
+        <script>
+            let slideIndex7 = 1;
+            showSlides7(slideIndex7);
+            function plusSlides7(e) {
+                showSlides7(slideIndex7 += e);
+            }
+            function currentSlide7(e) {
+                showSlides7(slideIndex7 = e);
+            }
+            function showSlides7(e) {
+                let f;
+                const slides7 = document.getElementsByClassName("slider7");
+                if (e > slides7.length) {slideIndex7 = 1}
+                if (e < 1) {slideIndex7 = slides7.length}
+                for (f = 0; f < slides7.length; f++) {
+                  slides7[f].style.display = "none";
+                }
+                slides7[slideIndex7-1].style.display = "block";
+            }
+        </script>
+    {% elif timeline.position == "8th"%}
+        <div class="item-i">
+            <img class="card-img-top" src="{{ timeline.media.url }}" alt="timeline media">
+            <div class="card-body">
+                <small class="card-subtitle text-muted">
+                    {{ timeline.date|date:'F, Y'}}
+                </small>
+            </div>
+        </div>
+    {% elif timeline.position == "8thC" %}
+        <div class="item-i1">
+            <div class="slider8"> <h5>{{timeline.title }}</h5> </div>
+            <div class="slider8"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
+            <div class="slider8"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
+            <div class="slider8"><p><q><i>{{ timeline.content3 }}</i></q></p> </div>
+           <article>
+               <a class="prev" style="color: #cbd5db; cursor: pointer; position: absolute; ;" onclick="plusSlides8(-1)">&#10094;</a>
+               <a class="next" style="color: #cbd5db; cursor: pointer; position: absolute; ; " onclick="plusSlides8(1)">&nbsp;&nbsp;&nbsp;&nbsp;&#10095;</a>
+           </article>
+        </div>
+        <script>
+            let slideIndex8 = 1;
+            showSlides8(slideIndex8);
+            function plusSlides8(h) {
+                showSlides8(slideIndex8 += h);
+            }
+            function currentSlide8(h) {
+                showSlides8(slideIndex8 = h);
+            }
+            function showSlides8(h) {
+                let g;
+                const slides8 = document.getElementsByClassName("slider8");
+                if (h > slides8.length) {slideIndex8 = 1}
+                if (h < 1) {slideIndex8 = slides8.length}
+                for (g = 0; g < slides8.length; g++) {
+                  slides8[g].style.display = "none";
+                }
+                slides8[slideIndex8-1].style.display = "block";
+            }
+        </script>
+    {% endif%}
+{% endfor %}
+    <div class="item-a">
+        <img class="img-signature" src="/media/financeforeveryone.svg" alt="signature">
+    </div>
+{% endblock %}
+
