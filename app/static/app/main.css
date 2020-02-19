@@ -1,6 +1,8 @@
 /* CSS STYLES */
-/* For mobile phones: */
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 * {
     margin: 0 auto;
     box-sizing: border-box;
