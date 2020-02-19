@@ -39,7 +39,7 @@ div{
 .container{
     display: grid;
     grid-template-rows: inherit;
-    grid-template-columns: inherit;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap:150px;
     grid-row-gap: 20px;
     justify-content: center;
