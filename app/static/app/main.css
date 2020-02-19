@@ -1,8 +1,5 @@
 /* CSS STYLES */
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
+
 * {
     margin: 0 auto;
     box-sizing: border-box;
@@ -43,6 +40,7 @@ div{
 .container{
     display: grid;
     grid-template-rows: inherit;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
     grid-column-gap:150px;
     grid-row-gap: 20px;
     justify-content: center;
@@ -55,16 +53,7 @@ div{
     top: 0;
 }
 /*Grid Entries*/
-@media only screen and (min-width: 150px ){
-    .container{
-        grid-template-columns: 1fr;
-    }
-}
-@media only screen and (min-width: 576px ){
-    .container{
-        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    }
-}
+
 .item-a{
     justify-self: center;
     grid-column-start: 1;
