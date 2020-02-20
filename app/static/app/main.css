@@ -46,7 +46,9 @@ div{
     justify-items: center;
     align-items: center;
 }
-
+.item-a{
+    justify-self: center;
+}
 
 #header{
     top: 0;
