@@ -54,53 +54,7 @@ div{
     justify-items: center;
     align-items: center;
 }
-
-#header{
-    top: 0;
-}
-.card-text{
-    color: #cbd5db;
-}
-/*Nine Logo at the top + Animation */
-#logo{
-    padding-top: 20px;
-    width: 62px;
-    height: 73px;
-}
-#logo:hover{
-    filter: url(#glow);
-}
-
-/* Images & Icons */
-.img-signature{
-    width: 600px;
-    height: 154px;
-    align-content: center;
-}
-.card-img-top{
-    position: relative;
-    height: inherit;
-    width: inherit;
-    justify-content: center;
-}
-.card-img-top1{
-    position: relative;
-    height: 300px;
-    width: 400px;
-    justify-content: center;
-}
-#footer{
-    bottom: 0;
-    opacity: inherit;
-    color: #000000;
-    text-align: center;
-}
-img{
-    height: 20px;
-    width: 20px;
-}
-
-    .item-a{
+.item-a{
     justify-self: center;
     grid-column-start: 1;
     grid-column-end: span 2;
@@ -224,3 +178,48 @@ img{
 }
 
 
+
+#header{
+    top: 0;
+}
+.card-text{
+    color: #cbd5db;
+}
+/*Nine Logo at the top + Animation */
+#logo{
+    padding-top: 20px;
+    width: 62px;
+    height: 73px;
+}
+#logo:hover{
+    filter: url(#glow);
+}
+
+/* Images & Icons */
+.img-signature{
+    width: 600px;
+    height: 154px;
+    align-content: center;
+}
+.card-img-top{
+    position: relative;
+    height: inherit;
+    width: inherit;
+    justify-content: center;
+}
+.card-img-top1{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+}
+#footer{
+    bottom: 0;
+    opacity: inherit;
+    color: #000000;
+    text-align: center;
+}
+img{
+    height: 20px;
+    width: 20px;
+}
