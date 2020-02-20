@@ -48,6 +48,7 @@ p, a{
 }
 div{
     padding-bottom: 10px;
+    display: grid;
 }
 
 .container{
