@@ -216,10 +216,9 @@ img{
     width: 20px;
 }
 .dot {
-    position: absolute;
     cursor: pointer;
-    height: 5px;
-    width: 5px;
+    height: 10px;
+    width: 10px;
     margin: 0 2px;
     background-color: #fff;
     border-radius: 50%;
@@ -227,9 +226,10 @@ img{
     transition: background-color 0.6s ease;
 }
 .dot-container {
-  text-align: center;
-  padding: 20px;
-  background: transparent;
+    position: center;
+    text-align: center;
+    padding: 20px;
+    background: transparent;
 }
 .active, .dot:hover {
   background-color: #717171;
