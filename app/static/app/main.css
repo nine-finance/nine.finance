@@ -27,13 +27,26 @@ ul {
 li{
     display: inline;
 }
+@media only screen
+and (max-width : 480px) {
+    [class*="col-"]{
+        width: 100%
+    }}
+@media only screen
+and (min-width : 768px) {
+    .col-1{
+        width: 50%
+    }
+    .col-2{
+        width: 50%
+    }
+}
 
 p, a{
     color: #cbd5db;
     justify-content: center;
 }
 div{
-    display: grid;
     padding-bottom: 10px;
 }
 
@@ -206,7 +219,7 @@ div{
 .card-img-top1{
     position: relative;
     height: 300px;
-    width: 250px;
+    width: 400px;
     justify-content: center;
 }
 #footer{
