@@ -67,7 +67,8 @@ div{
 .img-signature{
     width: 600px;
     height: 154px;
-    align-content: center;
+    right: 0;
+    left: 0;
 }
 .card-img-top{
     position: relative;
