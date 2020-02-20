@@ -1,12 +1,4 @@
 /* CSS STYLES */
-
-
-@media only screen
-and (max-width : 480px) {
-}
-@media only screen
-and (min-width : 768px) {
-}
 * {
     margin: 0 auto;
     box-sizing: border-box;
