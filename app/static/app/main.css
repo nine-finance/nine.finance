@@ -38,7 +38,7 @@ div{
 .container{
     display: grid;
     grid-template-rows: inherit;
-    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(690px,1fr));
     grid-column-gap:150px;
     grid-row-gap: 20px;
     justify-content: center;
