@@ -216,9 +216,10 @@ img{
     width: 20px;
 }
 .dot {
+    position: absolute;
     cursor: pointer;
-    height: 15px;
-    width: 15px;
+    height: 5px;
+    width: 5px;
     margin: 0 2px;
     background-color: #fff;
     border-radius: 50%;
