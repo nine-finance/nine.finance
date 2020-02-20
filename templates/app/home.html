@@ -59,7 +59,7 @@
             </div>
         </div>
     {% elif timeline.position == "2ndC" %}
-        <div class="item-c1 slideshow" onclick="plusSlides(1)">
+        <div class="item-c1 slideshow" onclick="plusSlides2(1)">
             <div class="slider2"> <h5>{{timeline.title }}</h5> </div>
             <div class="slider2"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
             <div class="slider2"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
@@ -105,7 +105,7 @@
             </div>
         </div>
     {% elif timeline.position == "3rdC" %}
-        <div class="item-d1 slideshow" onclick="plusSlides(1)">
+        <div class="item-d1 slideshow" onclick="plusSlides3(1)">
             <div class="slider3"> <h5>{{timeline.title }}</h5> </div>
             <div class="slider3"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
             <div class="slider3"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
@@ -151,7 +151,7 @@
             </div>
         </div>
     {% elif timeline.position == "4thC" %}
-        <div class="item-e1 slideshow" onclick="plusSlides(1)">
+        <div class="item-e1 slideshow" onclick="plusSlides4(1)">
             <div class="slider4"> <h5>{{timeline.title }}</h5> </div>
             <div class="slider4"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
             <div class="slider4"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
@@ -197,7 +197,7 @@
             </div>
         </div>
     {% elif timeline.position == "5thC" %}
-        <div class="item-f1" onclick="plusSlides(1)">
+        <div class="item-f1" onclick="plusSlides5(1)">
             <div class="slider5"> <h5>{{timeline.title }}</h5> </div>
             <div class="slider5"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
             <div class="slider5"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
@@ -243,7 +243,7 @@
             </div>
         </div>
     {% elif timeline.position == "6thC" %}
-        <div class="item-g1" onclick="plusSlides(1)">
+        <div class="item-g1" onclick="plusSlides6(1)">
             <div class="slider6"> <h5>{{timeline.title }}</h5> </div>
             <div class="slider6"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
             <div class="slider6"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
@@ -289,7 +289,7 @@
             </div>
         </div>
     {% elif timeline.position == "7thC" %}
-        <div class="item-h1" onclick="plusSlides(1)">
+        <div class="item-h1" onclick="plusSlides7(1)">
             <div class="slider7"> <h5>{{timeline.title }}</h5> </div>
             <div class="slider7"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
             <div class="slider7"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
@@ -335,7 +335,7 @@
             </div>
         </div>
     {% elif timeline.position == "8thC" %}
-        <div class="item-i1" onclick="plusSlides(1)">
+        <div class="item-i1" onclick="plusSlides8(1)">
             <div class="slider8"> <h5>{{timeline.title }}</h5> </div>
             <div class="slider8"><p><q><i>{{ timeline.content1 }}</i></q></p> </div>
             <div class="slider8"> <p><q><i>{{ timeline.content2 }}</i></q></p></div>
@@ -364,7 +364,7 @@
                 for (g = 0; g < slides8.length; g++) {
                   slides8[g].style.display = "none";
                 }
-                for (g = 0; g < dots7.length; g++) {
+                for (g = 0; g < dots8.length; g++) {
                     dots8[g].className = dots8[g].className.replace(" active", "");
                 }
                 slides8[slideIndex8-1].style.display = "block";
