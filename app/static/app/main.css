@@ -215,7 +215,7 @@ img{
     height: 20px;
     width: 20px;
 }
-.dot {
+.dot, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7,.dot8 {
     cursor: pointer;
     height: 10px;
     width: 10px;
