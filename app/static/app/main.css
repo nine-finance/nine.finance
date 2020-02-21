@@ -46,6 +46,10 @@ div{
     justify-items: center;
     align-items: center;
 }
+.item-a{
+    justify-self: center;
+
+}
 
 #header{
     top: 0;
@@ -67,6 +71,7 @@ div{
 .img-signature{
     width: 600px;
     height: 154px;
+    text-align: center;
 }
 .card-img-top{
     position: relative;
