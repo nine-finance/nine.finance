@@ -17,5 +17,8 @@ class timeline(models.Model):
         if self.media and hasattr(self.media, 'url'):
             return self.media.url
 
+class BackgroundMedia(models.Model):
+    media = models.ImageField()
+
 
 
