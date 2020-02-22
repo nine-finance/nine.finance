@@ -12,13 +12,8 @@ class timeline(models.Model):
     def __str__(self):
         return self.title
 
-    @property
-    def image_url(self):
-        if self.media and hasattr(self.media, 'url'):
-            return self.media.url
 
-class BackgroundMedia(models.Model):
-    media = models.ImageField()
+
 
 
 
