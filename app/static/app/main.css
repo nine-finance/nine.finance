@@ -65,10 +65,9 @@ div{
 }
 
 /* Images & Icons */
-.img-signature{
-    width: 600px;
-    height: 154px;
-    text-align: center;
+video{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .card-img-top{
     position: relative;
