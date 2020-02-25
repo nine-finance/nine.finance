@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['http://nine.finance']
+ALLOWED_HOSTS = ['http://nine.finance', 'www.nine.finance']
 
 
 # Application definition
