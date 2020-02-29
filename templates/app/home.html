@@ -1,6 +1,5 @@
 {% extends "app/base.html" %}
 {% block content %}
-    {% csrf_token %}
     {% for timeline in times %}
     {% if timeline.position == "1st" %}
         <div class="item-b">
