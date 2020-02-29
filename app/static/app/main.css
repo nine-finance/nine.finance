@@ -90,8 +90,7 @@ video{
     text-align: center;
 }
 video{
-    max-width: inherit ;
-    max-height: inherit;
+    object-fit: inherit;
 }
 img{
     height: 20px;
