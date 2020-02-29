@@ -85,7 +85,6 @@ video{
     justify-content: center;
 }
 #footer{
-    bottom: 0;
     opacity: inherit;
     color: #000000;
     text-align: center;
