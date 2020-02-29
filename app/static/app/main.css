@@ -89,6 +89,10 @@ video{
     color: #000000;
     text-align: center;
 }
+video{
+    max-width: inherit ;
+    max-height: inherit;
+}
 img{
     height: 20px;
     width: 20px;
