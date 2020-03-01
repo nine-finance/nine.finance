@@ -25,6 +25,7 @@ ul {
 }
 li{
     display: inline;
+    justify-content: center;
 }
     p, a{
     color: #cbd5db;
