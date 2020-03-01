@@ -21,13 +21,10 @@ h1, h2, h3, h4, h5, h6 {
 ul {
     padding-top: 10px;
     padding-bottom: 20px;
-    text-align: center;
+    display: inline flex;
+    justify-content: center;
+}
 
-}
-li{
-    display: inline;
-    text-align: center;
-}
     p, a{
     color: #cbd5db;
     justify-content: center;
