@@ -25,9 +25,10 @@ ul {
     justify-content: center;
 }
 
-    p, a{
+p, a{
     color: #cbd5db;
     justify-content: center;
+    padding-bottom: 25px;
 }
 div{
     padding-bottom: 10px;
