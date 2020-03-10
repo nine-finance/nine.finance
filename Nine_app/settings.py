@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+CSRF_COOKIE_SECURE = False
 ROOT_URLCONF = 'Nine_app.urls'
 
 TEMPLATES = [
