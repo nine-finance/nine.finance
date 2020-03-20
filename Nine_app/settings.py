@@ -32,8 +32,9 @@ ALLOWED_HOSTS = ['167.172.129.47']
 # Application definition
 
 INSTALLED_APPS = [
-    'currency_converter.apps.CurrencyConverterConfig',
     'app.apps.AppConfig',
+    'blog.apps.BlogConfig',
+    'crispy_forms'
     'rest_framework',
     'corsheaders',
     'storages',
@@ -131,7 +132,7 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
-CRISPY_TEMPLATE_PACK = 'bootstrap 4', ''
+CRISPY_TEMPLATE_PACK = 'bootstrap 4',
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
