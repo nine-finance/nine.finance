@@ -4,14 +4,14 @@ from django.views.generic import ListView, DetailView, CreateView, UpdateView, D
 from .models import post
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 
-def home(request):
-    context= {
+def blog(request):
+    context = {
         "posts": post.objects.all()
     }
     return render(request, "blog/home.html", context )
 
 class PostListView(ListView):
-    model= post
+    model = post
     template_name = 'blog/home.html'
     context_object_name = 'posts'
     ordering = ['-date']
