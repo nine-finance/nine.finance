@@ -4,4 +4,4 @@ from .models import timeline
 
 # Register your models here.
 admin.site.register(timeline)
-admin.site.register(post)
+
