@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from django.conf import settings
+from blog import views
 from django.conf.urls.static import static
 
 
@@ -23,7 +24,12 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("app.urls")),
-    path('blog/', include("blog.urls")),
+    path('blog/', views.PostListView.as_view(), name="blog-home"),
+    path('post/<int:pk>/', views.PostDetailView.as_view(), name="post-detail"),
+    path('post/new/', views.PostCreateView.as_view(), name="post-create"),
+    path('post/<int:pk>/update/', views.PostUpdateView.as_view(), name="post-update"),
+    path('post/<int:pk>/delete/', views.PostDeleteView.as_view(), name="post-delete"),
+    path('username/<str:username>', views.UserPostListView.as_view(), name="user-posts"),
     path('api-auth/', include('rest_framework.urls'))
 ]
 
