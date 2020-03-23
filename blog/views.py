@@ -1,8 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.models import User
-from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.views.generic import ListView, DetailView
 from .models import post
-from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+
 
 def blog(request):
     context = {
