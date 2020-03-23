@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 import boto3
 import django_heroku
+import django.contrib.staticfiles
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -36,10 +37,6 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'crispy_forms',
     'adminfiles',
-    'sorl.thumbnail',
-    'oembed',
-    'gdata',
-    'flickrapi',
     'rest_framework',
     'corsheaders',
     'storages',
@@ -129,8 +126,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-STATIC_URL = '/static/'
+STATIC_URL = '/static/', '/adminfiles/static/adminfiles/'
 
+ADMINFILES_UPLOAD_TO = 'blog_media'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 CRISPY_TEMPLATE_PACK = 'bootstrap 4',
@@ -154,3 +152,10 @@ AWS_DEFAULT_ACL = None
 DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 django_heroku.settings(locals())
+THUMBNAIL_EXTENSION = 'png'
+ADMINFILES_INSERT_LINKS = {
+    '': [('Insert Link', {})],
+    'image': [('Insert', {}),
+              ('Insert (left)', {'class': 'left'}),
+              ('Insert (right)', {'class': 'right'})]
+}

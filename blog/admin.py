@@ -1,5 +1,10 @@
 from django.contrib import admin
 from .models import post
+from adminfiles.admin import FilePickerAdmin
 
-admin.site.register(post)
 
+class PostAdmin(FilePickerAdmin):
+    adminfiles_fields = ('content',)
+
+
+admin.site.register(post, PostAdmin)
