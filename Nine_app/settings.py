@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'app.apps.AppConfig',
     'blog.apps.BlogConfig',
     'crispy_forms',
-    'adminfiles',
     'rest_framework',
     'corsheaders',
     'storages',
