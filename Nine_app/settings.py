@@ -129,9 +129,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-STATIC_URL = '/static/', '/adminfiles/static/adminfiles/'
+STATIC_URL = '/static/'
 
-ADMINFILES_UPLOAD_TO = 'blog_media'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 CRISPY_TEMPLATE_PACK = 'bootstrap 4',
@@ -156,9 +155,3 @@ DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 django_heroku.settings(locals())
 THUMBNAIL_EXTENSION = 'png'
-ADMINFILES_INSERT_LINKS = {
-    '': [('Insert Link', {})],
-    'image': [('Insert', {}),
-              ('Insert (left)', {'class': 'left'}),
-              ('Insert (right)', {'class': 'right'})]
-}
