@@ -159,8 +159,8 @@ a.article-title:hover {
 }
 
 .article-img {
-  height: 65px;
-  width: 85px;
+  height: 200px;
+  width: 300px;
   justify-content: center;
 }
 
