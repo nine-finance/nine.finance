@@ -17,10 +17,6 @@ class PostListView(ListView):
     ordering = ['-date']
 
 
-class UserPostListView(ListView):
-    model= post
-    template_name = 'blog/user_post.html'
-    context_object_name = 'posts'
 
 
     def get_queryset(self):

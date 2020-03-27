@@ -3,6 +3,5 @@ from .views import PostListView, PostDetailView, PostCreateView, PostUpdateView,
 
 urlpatterns = [
     path('blog/', PostListView.as_view(), name="blog-home"),
-    path('post/<int:pk>/', PostDetailView.as_view(), name="post-detail"),
-    path('username/<str:username>', UserPostListView.as_view(), name="user-posts")
+    path('post/<int:pk>/', PostDetailView.as_view(), name="post-detail")
 ]
