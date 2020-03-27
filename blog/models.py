@@ -6,7 +6,7 @@ class post(models.Model):
     title=models.CharField(max_length=100)
     content=models.TextField(null=True, blank=True)
     summary=models.TextField(null=True, blank=True)
-    media = models.ImageField(default='timeline_media/background copy.png', upload_to='blog_media')
+    media = models.ImageField(default='background copy.png', upload_to='blog_media')
     date=models.DateTimeField(default=timezone.now)
 
 

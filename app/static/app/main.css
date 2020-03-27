@@ -126,7 +126,7 @@ img{
   background-color: #717171;
 }
 article{
-  width: 484px;
+  min-width: 484px;
   min-height: 235px;
 }
 
