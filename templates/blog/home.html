@@ -6,9 +6,9 @@
                 <div1 class="article-metadata">
                     <small class="text-muted">{{ post.date|date:'F d, Y' }}</small>
                 </div1>
-                <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
-                <img class="article-img" src="{{ post.media.url}}" alt="blog media">
-                <p class="article-content">{{ post.summary }}</p>
+                <h2><a class="article-title" style="text-align: center" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
+                <img class="article-img" style="text-align: center" src="{{ post.media.url}}" alt="blog media">
+                <p class="article-content" style="text-align: center">{{ post.summary }}</p>
             </div1>
         </article>
     {% endfor %}
