@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'crispy_forms',
     'rest_framework',
+    'adminfiles',
     'corsheaders',
     'storages',
     'django.contrib.admin',
