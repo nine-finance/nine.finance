@@ -23,6 +23,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 62px;
     height: 73px;
 }
+p, a{
+    color: #cbd5db;
+    justify-content: center;
+    padding-bottom: 25px;
+}
 #logo:hover{
     filter: url(#glow);
 }
