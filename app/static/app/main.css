@@ -24,12 +24,16 @@ ul {
     display: inline flex;
     justify-content: center;
 }
-
-p, a{
+p{
     color: #cbd5db;
     justify-content: center;
     padding-bottom: 25px;
     width: 420px;
+}
+a{
+    color: #cbd5db;
+    justify-content: center;
+    padding-bottom: 25px;
 }
 div{
     padding-bottom: 10px;
