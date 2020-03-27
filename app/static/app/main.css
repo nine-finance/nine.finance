@@ -29,6 +29,7 @@ p, a{
     color: #cbd5db;
     justify-content: center;
     padding-bottom: 25px;
+    width: 420px;
 }
 div{
     padding-bottom: 10px;
@@ -126,7 +127,7 @@ img{
   background-color: #717171;
 }
 article{
-  min-width: 484px;
+  width: 484px;
   min-height: 235px;
 }
 
@@ -158,8 +159,8 @@ a.article-title:hover {
 }
 
 .article-img {
-  height: inherit;
-  width: inherit;
+  height: 65px;
+  width: 85px;
   justify-content: center;
 }
 
