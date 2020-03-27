@@ -19,6 +19,8 @@ from django.conf import settings
 from blog import views
 from django.conf.urls.static import static
 
+from blog.views import UserPostListView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("app.urls")),
