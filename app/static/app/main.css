@@ -34,7 +34,9 @@ div{
     padding-bottom: 10px;
     display: grid;
 }
-
+div1{
+    justify-content: center;
+}
 .container{
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
