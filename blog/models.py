@@ -4,8 +4,8 @@ from django.urls import reverse
 
 class post(models.Model):
     title=models.CharField(max_length=100)
-    content=models.TextField()
-    summary=models.CharField(max_length=1000, blank=True)
+    content=models.TextField(null=True, blank=True)
+    summary=models.TextField(null=True, blank=True)
     date=models.DateTimeField(default=timezone.now)
 
 
