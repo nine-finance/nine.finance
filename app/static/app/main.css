@@ -142,7 +142,9 @@ article{
 }
 
 .article-title {
-  color: #cbd5db;
+    color: #cbd5db;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 a.article-title:hover {
@@ -151,7 +153,9 @@ a.article-title:hover {
 }
 
 .article-content {
-  white-space: pre-line;
+    white-space: pre-line;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .article-img {
@@ -161,9 +165,10 @@ a.article-title:hover {
 }
 
 .article-metadata {
-  padding-bottom: 1px;
-  margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
 }
 
 .article-svg {
