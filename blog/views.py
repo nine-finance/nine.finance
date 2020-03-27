@@ -16,8 +16,10 @@ class PostListView(ListView):
     context_object_name = 'posts'
     ordering = ['-date']
 
-
-
+class UserPostListView(ListView):
+    model = post
+    template_name = 'blog/user_post.html'
+    context_object_name = 'posts'
 
     def get_queryset(self):
         user=get_object_or_404(User, username=self.kwargs.get('username'))
