@@ -46,6 +46,12 @@ div{
     justify-items: center;
     align-items: center;
 }
+.container1{
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
 .item-b1, .item-c1, .item-d1, .item-e1, .item-f1, .item-g1, .item-h1, .item-i1{
     cursor: pointer;
 }
