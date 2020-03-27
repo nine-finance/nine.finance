@@ -34,8 +34,10 @@ div{
     padding-bottom: 10px;
     display: grid;
 }
-div1{
+.media-body{
     justify-content: center;
+    text-align: center;
+
 }
 .container{
     display: grid;
