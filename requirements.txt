@@ -26,7 +26,6 @@ views==0.3
 whitenoise==5.0.1
 django-adminfiles==1.0.1
 sorl-thumbnail==12.6.3
-djangoembed==0.1.1
 gdata==2.0.18
 certifi==2019.11.28
 chardet==3.0.4
