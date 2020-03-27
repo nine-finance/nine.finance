@@ -2,13 +2,13 @@
 {% block content %}
     {% for post in posts%}
         <article class="media content-section">
-            <div class="media-body">
-                <div class="article-metadata">
+            <div1 class="media-body">
+                <div1 class="article-metadata">
                     <small class="text-muted">{{ post.date|date:'F d, Y' }}</small>
-                </div>
+                </div1>
                 <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
                 <p class="article-content">{{ post.content }}</p>
-            </div>
+            </div1>
         </article>
     {% endfor %}
 {% endblock content %}
