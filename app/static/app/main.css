@@ -28,7 +28,7 @@ p{
     color: #cbd5db;
     justify-content: center;
     padding-bottom: 25px;
-    width: inherit;
+    margin: inherit;
 }
 a{
     color: #cbd5db;
