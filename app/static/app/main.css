@@ -12,8 +12,7 @@ body {
 
 h1, h2, h3 {
     color: #cbd5db;
-    font-family: 'Noto Sans';
-    font-style: italic;
+    font-family: AppleGothic;
     font-weight: bold;
     /*text-transform: uppercase;*/
     justify-content: center;
@@ -48,6 +47,9 @@ div{
 }
 .media-body{
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+
 }
 .container{
     display: grid;
