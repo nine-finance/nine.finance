@@ -37,6 +37,10 @@ a{
     padding-bottom: 25px;
     width: inherit;
 }
+a:hover{
+    color: white;
+    cursor: pointer;
+}
 div{
     padding-bottom: 10px;
     display: grid;
