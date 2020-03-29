@@ -34,7 +34,6 @@ ALLOWED_HOSTS = ['167.172.129.47']
 
 INSTALLED_APPS = [
     'app.apps.AppConfig',
-    'blog.apps.BlogConfig',
     'crispy_forms',
     'rest_framework',
     'corsheaders',
