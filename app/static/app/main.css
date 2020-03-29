@@ -178,6 +178,8 @@ a.article-title:hover {
 }
 
 .article-img {
+    min-width: 350px;
+    max-height: 311px;
     justify-content: center;
 }
 
