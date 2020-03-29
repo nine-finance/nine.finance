@@ -29,7 +29,7 @@ p{
     color: #cbd5db;
     justify-content: center;
     padding-bottom: 25px;
-    width: 640px;
+    max-width: 640px;
 }
 a{
     color: #cbd5db;
@@ -173,8 +173,8 @@ a.article-title:hover {
 }
 
 .article-img {
-  height: 333px;
-  width: 640px;
+  max-height: inherit;
+  max-width: inherit;
   justify-content: center;
 }
 
