@@ -45,6 +45,7 @@ a:hover{
 div{
     padding-bottom: 10px;
     display: grid;
+    padding-top: 20px;
 }
 .blog{
     text-align: center;
@@ -117,6 +118,7 @@ video{
     opacity: inherit;
     color: #000000;
     text-align: center;
+    bottom:0 ;
 }
 
 .dot, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7,.dot8 {
@@ -140,8 +142,8 @@ video{
 }
 article{
     min-width: 350px;
-    max-width: 640px;
-    max-height: 311px;
+    max-width: inherit;
+    max-height: inherit;
 }
 
 .content-section {
