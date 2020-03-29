@@ -135,8 +135,8 @@ video{
   background-color: #717171;
 }
 article{
-  width: 640px;
-  min-height: 311px;
+  max-width: 640px;
+  max-height: 311px;
 }
 
 .content-section {
