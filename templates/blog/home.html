@@ -1,14 +1,14 @@
 {% extends "blog/base.html" %}
 {% block content %}
     <h1> Our Stories so Far</h1>
-    <p> Money is everywhere, yet we still have questions. In these stories <br> we are trying to get the subjective truth, and understand how and why <br> the numbers affect us.</p>
+    <p> Money is everywhere, yet we still have questions. In these stories we are trying to get the subjective truth, and understand how and why the numbers affect us.</p>
     {% for post in posts%}
         <div1 class="media-body">
             <article class="media content-section">
                 <img class="article-img" style="justify-content: center" src="{{ post.media.url}}" alt="blog media">
             </article>
-            <h2><a class="article-title" style="justify-content: center" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
-            <p class="article-content" style="text-align: center">{{ post.summary }}</p>
+            <h3><a class="article-title"  href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h3>
+            <p class="article-content" >{{ post.summary }}</p>
         </div1>
 
     {% endfor %}

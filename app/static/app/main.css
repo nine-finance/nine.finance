@@ -151,6 +151,7 @@ article{
     color: #cbd5db;
     padding-bottom: 5px;
     padding-top: 5px;
+    text-align: left;
 }
 
 a.article-title:hover {
@@ -161,6 +162,7 @@ a.article-title:hover {
 .article-content {
     padding-bottom: 5px;
     padding-top: 5px;
+    text-align: left;
 }
 
 .article-img {
