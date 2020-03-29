@@ -150,6 +150,7 @@ article{
     color: #cbd5db;
     padding-bottom: 5px;
     padding-top: 5px;
+    width: 640px;
     text-align: left;
     justify-content: left;
 }
@@ -162,22 +163,17 @@ a.article-title:hover {
 .article-content {
     padding-bottom: 5px;
     padding-top: 5px;
+    width: 640px;
     text-align: left;
     justify-content: left;
 }
 
 .article-img {
   height: 311px;
-  width: 610px;
+  width: 640px;
   justify-content: center;
 }
 
-.article-metadata {
-    padding-bottom: 5px;
-    padding-top: 5px;
-    margin-bottom: 4px;
-    border-bottom: 1px solid #e3e3e3
-}
 
 .article-svg {
   width: 65px;
