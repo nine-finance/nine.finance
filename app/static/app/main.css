@@ -34,7 +34,6 @@ p{
 }
 a{
     color: #cbd5db;
-    justify-content: center;
     padding-bottom: 25px;
     width: inherit;
 }
@@ -152,6 +151,7 @@ article{
     padding-bottom: 5px;
     padding-top: 5px;
     text-align: left;
+    justify-content: left;
 }
 
 a.article-title:hover {
@@ -163,11 +163,12 @@ a.article-title:hover {
     padding-bottom: 5px;
     padding-top: 5px;
     text-align: left;
+    justify-content: left;
 }
 
 .article-img {
-  height: 200px;
-  width: inherit;
+  height: 311px;
+  width: 610px;
   justify-content: center;
 }
 
