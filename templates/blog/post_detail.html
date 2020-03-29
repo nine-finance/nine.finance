@@ -1,13 +1,10 @@
 {% extends "blog/base.html" %}
 {% block content %}
+    <div1 class="media-body">
         <article class="media content-section">
-            <div1 class="media-body">
-                <div1 class="article-metadata">
-                  <small class="text-muted">{{ post.date|date:'F d, Y' }}</small>
-                </div1>
-                <h2 class="article-title">{{ post.title }}</h2>
-                <img class="article-img" src="{{ post.media.url}}" alt="blog media">
-                <p class="article-content">{{ post.content }}</p>
-              </div1>
+            <img class="article-img" src="{{ post.media.url}}" alt="blog media">
         </article>
+        <h2 class="article-title">{{ post.title }}</h2>
+        <p class="article-content">{{ post.content }}</p>
+    </div1>
 {%endblock content%}

@@ -10,7 +10,7 @@ body {
     margin-top: 7rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     color: #cbd5db;
     font-family: 'Noto Sans';
     font-style: italic;
@@ -28,7 +28,7 @@ p{
     color: #cbd5db;
     justify-content: center;
     padding-bottom: 25px;
-    margin: inherit;
+    width: 400px;
 }
 a{
     color: #cbd5db;
@@ -41,7 +41,7 @@ div{
     display: grid;
 }
 .media-body{
-    justify-content: center;
+    justify-content: left;
     text-align: center;
 }
 .container{
