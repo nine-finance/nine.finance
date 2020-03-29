@@ -179,8 +179,7 @@ a.article-title:hover {
 }
 
 .article-img {
-    min-width: 350px;
-    max-width: inherit;
+    max-width: 350px;
     max-height: 311px;
     justify-content: center;
     margin: 0 0 0 0;
