@@ -15,7 +15,9 @@ h1, h2, h3 {
     font-family: 'Noto Sans';
     font-style: italic;
     font-weight: bold;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
+    justify-content: center;
+    text-align: center;
 }
 
 ul {
@@ -41,7 +43,6 @@ div{
     display: grid;
 }
 .media-body{
-    justify-content: left;
     text-align: center;
 }
 .container{
@@ -131,8 +132,8 @@ img{
   background-color: #717171;
 }
 article{
-  width: 700px;
-  min-height: 235px;
+  width: 640px;
+  min-height: 311px;
 }
 
 .content-section {
