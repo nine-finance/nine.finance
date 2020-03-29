@@ -127,7 +127,7 @@ video{
   background-color: #717171;
 }
 article{
-  width: inherit;
+  width: 640px;
   min-height: 311px;
 }
 
