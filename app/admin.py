@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import timeline
+from .models import timeline, post
 
 
 # Register your models here.

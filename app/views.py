@@ -20,7 +20,7 @@ def blog(request):
 
 class PostListView(ListView):
     model = post
-    template_name = 'blog/home.html'
+    template_name = 'app/home.html'
     context_object_name = 'posts'
     ordering = ['-date']
 
