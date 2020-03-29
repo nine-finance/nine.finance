@@ -34,7 +34,6 @@ p{
 }
 a{
     color: #cbd5db;
-    padding-bottom: 25px;
     width: inherit;
 }
 a:hover{
@@ -184,6 +183,7 @@ a.article-title:hover {
     max-width: inherit;
     max-height: 311px;
     justify-content: center;
+    margin: 0 0 0 0;
 }
 
 
