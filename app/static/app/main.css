@@ -12,7 +12,7 @@ body {
 
 h1, h2, h3 {
     color: #cbd5db;
-    font-family: AppleGothic;
+    font-family: 'Noto Sans';
     font-weight: bold;
     /*text-transform: uppercase;*/
     justify-content: center;
@@ -27,6 +27,7 @@ ul {
 }
 p{
     color: #cbd5db;
+    text-align: center;
     justify-content: center;
     padding-bottom: 25px;
     max-width: 640px;
@@ -173,8 +174,8 @@ a.article-title:hover {
 }
 
 .article-img {
-  max-height: inherit;
-  max-width: inherit;
+  max-height: 311px;
+  max-width: 640px;
   justify-content: center;
 }
 
