@@ -13,7 +13,7 @@
 <section class="blog" >
     {% for post in posts%}
         <div1 class="media-body">
-            <article>
+            <article class="article-img">
                 <a href="{% url 'post-detail' post.id %}"><img src="{{ post.media.url}}" alt="blog media"></a>
             </article>
             <h3 class="article-title" ><a href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h3>
