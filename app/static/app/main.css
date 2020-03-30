@@ -139,10 +139,7 @@ video{
 .active, .dot:hover {
   background-color: #717171;
 }
-article{
-    width: auto;
-    max-height: inherit;
-}
+
 
 .content-section {
   padding: 10px 20px;
