@@ -8,26 +8,8 @@ body {
     color: #000000;
     margin-top: 7rem;
 }
-@media screen and (max-width: 400px) {
-    article{
-        width: 350px;
-        height: 311px;
-    }
-    p.article-content {
-        max-width: 350px;
-        text-align: left;
-    }
-    img.article-img {
-        width: 350px;
-        height: 311px;
-        justify-content: center;
-        margin: 0 0 0 0;
-    }
-    h3.article-title {
-        color: #cbd5db;
-        width: 350px;
-    }
-}
+
+
 h1, h2, h3 {
     color: #cbd5db;
     font-family: 'Noto Sans';
