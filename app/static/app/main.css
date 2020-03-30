@@ -3,12 +3,7 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-@media screen and (max-width: 500px) {
-        article{
-            width: 350px;
-            height: 311px;
-    }
-}
+
 body {
     background: #000000;
     color: #000000;
