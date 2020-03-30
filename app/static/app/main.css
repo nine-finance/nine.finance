@@ -169,13 +169,13 @@ a.article-title:hover {
 .article-content {
     padding-bottom: 30px;
     padding-top: 5px;
-    max-width: 350px;
+    max-width: 640px;
     text-align: left;
 
 }
 
 .article-img {
-    width: 640px;
+    max-width: 640px;
     height: 311px;
     justify-content: center;
     margin: 0 0 0 0;
