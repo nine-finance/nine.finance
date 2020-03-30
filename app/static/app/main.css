@@ -140,8 +140,7 @@ video{
   background-color: #717171;
 }
 article{
-    min-width: 350px;
-    max-width: inherit;
+    width: auto;
     max-height: inherit;
 }
 
@@ -179,7 +178,7 @@ a.article-title:hover {
 }
 
 .article-img {
-    max-width: 350px;
+    width: auto;
     max-height: 311px;
     justify-content: center;
     margin: 0 0 0 0;
