@@ -156,7 +156,8 @@ video{
     color: #cbd5db;
     padding-bottom: 5px;
     padding-top: 5px;
-    max-width: 640px;
+    max-width: 640px ;
+    width: 100%;
     text-align: left;
     justify-content: left;
 }
@@ -170,13 +171,15 @@ a.article-title:hover {
     padding-bottom: 30px;
     padding-top: 5px;
     max-width: 640px;
+    width: 100%;
     text-align: left;
 
 }
 
 .article-img {
     max-width: 640px;
-    height: 311px;
+    width: 100%;
+    height: auto;
     justify-content: center;
     margin: 0 0 0 0;
 }
