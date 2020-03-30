@@ -183,6 +183,7 @@ a.article-title:hover {
 article {
     width: inherit;
     height: inherit;
+    border: 5px solid #ffffff;
 }
 .article-svg {
   width: 65px;
