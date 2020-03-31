@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'storages',
+    'ckeditor',
+    'ckeditor_uploader',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -153,4 +155,5 @@ AWS_DEFAULT_ACL = None
 DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 django_heroku.settings(locals())
-THUMBNAIL_EXTENSION = 'png'
+AWS_QUERYSTRING_AUTH = False
+CKEDITOR_UPLOAD_PATH = "media/blog_media"

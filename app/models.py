@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.urls import reverse
+from ckeditor_uploader.fields import RichTextUploadingField
 
 class timeline(models.Model):
     title = models.CharField(max_length=100, blank=True)
@@ -17,7 +18,7 @@ class timeline(models.Model):
 
 class post(models.Model):
     title=models.CharField(max_length=100)
-    content=models.TextField(null=True, blank=True)
+    content=RichTextUploadingField(null=True, blank=True)
     summary=models.TextField(null=True, blank=True)
     media = models.ImageField(default='background copy.png', upload_to='blog_media')
     date=models.DateTimeField(default=timezone.now)

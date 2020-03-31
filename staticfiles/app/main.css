@@ -1,0 +1,195 @@
+/* CSS STYLES */
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body {
+    background: #000000;
+    color: #000000;
+    margin-top: 7rem;
+}
+
+
+h1, h2, h3 {
+    color: #cbd5db;
+    font-family: 'Noto Sans';
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    justify-content: center;
+    text-align: center;
+}
+
+ul {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: inline flex;
+    justify-content: center;
+}
+p{
+    color: #cbd5db;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    max-width: 640px;
+}
+a{
+    color: #cbd5db;
+    width: inherit;
+}
+a:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+div{
+    padding-bottom: 10px;
+    display: grid;
+    padding-top: 40px;
+}
+.blog{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
+    grid-column-gap: 1000px;
+    grid-row-gap: 20px;
+
+
+}
+.timeline{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-column-gap:150px;
+    grid-row-gap: 40px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.container1{
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.item-b1, .item-c1, .item-d1, .item-e1, .item-f1, .item-g1, .item-h1, .item-i1{
+    cursor: pointer;
+}
+
+#header{
+    top: 0;
+}
+.card-text{
+    color: #cbd5db;
+}
+/*Nine Logo at the top + Animation */
+#logo{
+    padding-top: 20px;
+    width: 62px;
+    height: 73px;
+}
+#logo:hover{
+    filter: url(#glow);
+}
+
+/* Images & Icons */
+video{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 350px;
+    height: 500px;
+}
+.card-img-top{
+    position: relative;
+    height: inherit;
+    width: inherit;
+    justify-content: center;
+}
+.card-img-top1{
+    position: relative;
+    height: 300px;
+    width: 350px;
+    justify-content: center;
+}
+#footer{
+    opacity: inherit;
+    color: #000000;
+    text-align: center;
+    bottom:0 ;
+}
+
+.dot, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7,.dot8 {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot-container {
+    position: center;
+    text-align: center;
+    padding: 20px;
+    background: transparent;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.content-section {
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.article-title {
+    color: #cbd5db;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    max-width: 640px ;
+    width: 100%;
+    text-align: left;
+    justify-content: left;
+}
+
+a.article-title:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.article-content {
+    padding-bottom: 30px;
+    padding-top: 5px;
+    max-width: 640px;
+    width: 100%;
+    text-align: left;
+
+}
+
+.article-img {
+    max-width: 640px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 0 0 0 0;
+}
+article {
+    width: inherit;
+    height: inherit;
+    border: 1px solid #ffffff;
+}
+.article-svg {
+  width: 65px;
+  height: 65px;
+  vertical-align: middle;
+}
