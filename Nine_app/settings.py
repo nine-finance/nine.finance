@@ -156,7 +156,7 @@ DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 django_heroku.settings(locals())
 
-CKEDITOR_UPLOAD_PATH = "blog_media/"
+CKEDITOR_UPLOAD_PATH = "uploads/"
 CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
 CKEDITOR_UPLOAD_SLUGIFY_FILENAME = False
 CKEDITOR_IMAGE_BACKEND = "pillow"
