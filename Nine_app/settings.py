@@ -13,6 +13,7 @@ import os
 import boto3
 import django_heroku
 import django.contrib.staticfiles
+import PIL
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -156,10 +157,10 @@ DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 django_heroku.settings(locals())
 
-CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_UPLOAD_PATH = "blog_media/"
 CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
 CKEDITOR_UPLOAD_SLUGIFY_FILENAME = False
-CKEDITOR_IMAGE_BACKEND = "pillow"
+CKEDITOR_IMAGE_BACKEND = "PIL"
 AWS_QUERYSTRING_AUTH = False
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
