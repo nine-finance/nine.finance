@@ -185,6 +185,7 @@ a.article-title:hover {
 }
 article {
     width: inherit;
+    max-width: 640px;
     height: inherit;
     border: 1px solid #ffffff;
 }
