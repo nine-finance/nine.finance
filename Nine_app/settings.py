@@ -166,9 +166,7 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 CKEDITOR_CONFIGS = {
     "default": {
-        "toolbar": "youtube",
-        "extraPlugins": ','.join([
-            'youtube',
-        ])
+        "toolbar": ','.join(['youtube']),
+        "extraPlugins": ','.join(['youtube'])
     }
 }
