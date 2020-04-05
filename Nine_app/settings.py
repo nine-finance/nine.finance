@@ -165,16 +165,36 @@ AWS_QUERYSTRING_AUTH = False
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 CKEDITOR_CONFIGS = {
-    "default": {
-        "toolbar": "custom",
-        "toolbar_custom":[
-            ['Styles', 'Format', 'Bold', 'Italic', 'Underline', 'Strike', 'SpellChecker', 'Undo', ],
-            ['Link', 'Unlink','Anchor'],
-            ['Image', 'Youtube', 'Flash', 'Table', 'HorizontalRule'],
-            ['TextColour', 'BGColor'],
-            ['Smiley', 'SpecialChar'],
-            ['Source']
+    'default': {
+        'skin': 'moono',
+        'toolbar_Basic': [
+            ['Source', '-', 'Bold', 'Italic']
         ],
-        "extraPlugins": ','.join(['youtube'])
+        'toolbar_YourCustomToolbarConfig': [
+            {'name': 'document', 'items': ['Source']},
+            {'name': 'clipboard', 'items': ['Undo', 'Redo']},
+            {'name': 'insert',
+             'items': ['Image', 'Youtube', 'Flash', 'Table', 'HorizontalRule']},
+            {'name': 'editing', 'items': ['Find', 'Replace']},
+            '/',
+            {'name': 'basicstyles',
+             'items': ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']},
+            {'name': 'paragraph',
+             'items': ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', '-',
+                       'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']},
+            {'name': 'links', 'items': ['Link', 'Unlink']},
+            '/',
+            {'name': 'styles', 'items': ['Styles', 'Format', 'Font', 'FontSize']},
+            {'name': 'colors', 'items': ['TextColor', 'BGColor']},
+        ],
+        'toolbar': 'YourCustomToolbarConfig',
+        'height': 420,
+        'width': '100%',
+
+        'tabSpaces': 4,
+        'extraPlugins': ','.join([
+            'uploadimage',
+            'youtube',
+        ]),
     }
 }
