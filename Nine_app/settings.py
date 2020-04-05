@@ -166,7 +166,15 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 CKEDITOR_CONFIGS = {
     "default": {
-        "toolbar": ','.join(['youtube']),
+        "toolbar": "custom",
+        "toolbar_custom":[
+            ['Styles', 'Format', 'Bold', 'Italic', 'Underline', 'Strike', 'SpellChecker', 'Undo', ],
+            ['Link', 'Unlink','Anchor'],
+            ['Image', 'Youtube', 'Flash', 'Table', 'HorizontalRule'],
+            ['TextColour', 'BGColor'],
+            ['Smiley', 'SpecialChar'],
+            ['Source']
+        ],
         "extraPlugins": ','.join(['youtube'])
     }
 }
