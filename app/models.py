@@ -18,7 +18,7 @@ class timeline(models.Model):
 
 class post(models.Model):
     title=models.CharField(max_length=100)
-    content=RichTextUploadingField(null=True, blank=True, config_name='default')
+    content=RichTextUploadingField(null=True, blank=True, extra_plugins=['videodetector'], external_plugin_resources=[('videodetector', 'staticfiles/ckeditor/videodetector-master', 'plugin.js')])
     summary=models.TextField(null=True, blank=True)
     media = models.ImageField(default='background copy.png', upload_to='blog_media')
     date=models.DateTimeField(default=timezone.now)
