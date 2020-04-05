@@ -163,3 +163,12 @@ CKEDITOR_UPLOAD_SLUGIFY_FILENAME = False
 CKEDITOR_IMAGE_BACKEND = "pillow"
 AWS_QUERYSTRING_AUTH = False
 X_FRAME_OPTIONS = 'SAMEORIGIN'
+
+CKEDITOR_CONFIGS = {
+    "default": {
+        "toolbar": "youtube",
+        "extraPlugins": ','.join([
+            'youtube',
+        ])
+    }
+}
