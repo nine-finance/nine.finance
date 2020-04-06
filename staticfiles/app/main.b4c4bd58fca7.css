@@ -24,7 +24,6 @@ ul, li {
     padding-bottom: 20px;
     color: #cbd5db;
     justify-content: center;
-    text-align: center;
 }
 p{
     color: #cbd5db;
@@ -91,7 +90,7 @@ div{
     height: 73px;
 }
 #logo:hover{
-    filter: url(#glow);
+    filter: url("#glow");
 }
 
 /* Images & Icons */
