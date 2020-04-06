@@ -160,7 +160,7 @@ AWS_QUERYSTRING_AUTH = False
 CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': 'Custom',
-        'toolbar_Custom': ['Source', 'Embed', 'Bold', 'Italic', 'VideoDetector']
+        'toolbar_Custom': [['Source', 'Embed', 'Bold', 'Italic', 'VideoDetector'],],
     }
 }
 
