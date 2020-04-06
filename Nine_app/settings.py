@@ -157,6 +157,10 @@ django_heroku.settings(locals())
 CKEDITOR_UPLOAD_PATH = "blog_media/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
 AWS_QUERYSTRING_AUTH = False
-
-
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': ['Source', 'Embed', 'Bold', 'Italic', 'VideoDetector']
+    }
+}
 
