@@ -164,7 +164,7 @@ CKEDITOR_CONFIGS = {
                            ['NumberedList', 'BulletedList', 'Indent', 'Blockquote', 'JustifyLeft', 'JustifyCenter', 'JustifyRight'],
                            ['Link', 'Unlink', 'Image', 'Styles', 'Format']
                            ],
-        'extraPlugins': ','.join(['VideoDetector', 'Embed']),
+        'extraPlugins':  'Embed',
     }
 }
 
