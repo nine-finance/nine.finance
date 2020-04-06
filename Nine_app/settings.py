@@ -161,7 +161,7 @@ CKEDITOR_UPLOAD_PATH = "blog_media/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
 AWS_QUERYSTRING_AUTH = False
 CKEDITOR_CONFIGS = {
-    'special': {
+    'default': {
         'toolbar': 'Custom',
         'toolbar_Custom': [['Source', 'Embed', 'Bold', 'Italic', 'VideoDetector', 'Underline'],
                            ['NumberedList', 'BulletedList', 'Indent', 'Blockquote', 'JustifyLeft', 'JustifyCenter', 'JustifyRight'],
