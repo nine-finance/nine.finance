@@ -20,7 +20,7 @@ class post(models.Model):
     title=models.CharField(max_length=100)
     content=RichTextUploadingField(null=True, blank=True, external_plugin_resources=(['VideoDetector',
                                                                                         '/staticfiles/ckeditor/ckeditor/plugins/videodetector-master/'
-                                                                                        'plugin.js',]),
+                                                                                        'plugin.js', '*args', '**kwargs']),
                                    )
     summary=models.TextField(null=True, blank=True)
     media = models.ImageField(default='background copy.png', upload_to='blog_media')
