@@ -92,7 +92,7 @@ div{
     height: 73px;
 }
 #logo:hover{
-    filter: url(#glow);
+    filter: url("#glow");
 }
 
 /* Images & Icons */

@@ -23,6 +23,7 @@ ul {
     padding-top: 10px;
     padding-bottom: 20px;
     color: #cbd5db;
+    max-width: 640px;
     justify-content: center;
     text-align: center;
 }
