@@ -19,6 +19,7 @@ class timeline(models.Model):
 class post(models.Model):
     title=models.CharField(max_length=100)
     content=RichTextUploadingField(null=True, blank=True)
+    content1= RichTextUploadingField(null=True, blank=True, config_name='special')
     summary=models.TextField(null=True, blank=True)
     media = models.ImageField(default='background copy.png', upload_to='blog_media')
     date=models.DateTimeField(default=timezone.now)

@@ -161,9 +161,12 @@ CKEDITOR_UPLOAD_PATH = "blog_media/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
 AWS_QUERYSTRING_AUTH = False
 CKEDITOR_CONFIGS = {
-    'default': {
-        'toolbar': [['Embed', 'VideoDetector']],
-        'extraPlugins': ','.join(['Embed', 'VideoDetector'])
+    'special': {
+        'toolbar': 'special',
+        'toolbar_special': [['Embed', 'VideoDetector','Image', 'Flash', 'Table',],
+                            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-','JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+                            ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript'],
+                            ['Styles', 'Format', 'Font', 'FontSize', 'TextColor', 'BGColor', 'Link', 'Unlink',]],
     }
 }
 
