@@ -48,10 +48,7 @@ div{
     display: grid;
     padding-top: 40px;
 }
-div1{
-    text-align: center;
-    justify-content: center;
-}
+
 .blog{
     text-align: center;
     display: grid;
