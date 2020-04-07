@@ -25,12 +25,12 @@ ul {
     color: #cbd5db;
     max-width: 640px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 p{
     color: #cbd5db;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     padding-bottom: 25px;
     max-width: 640px;
 }
