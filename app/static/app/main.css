@@ -45,7 +45,11 @@ a:hover{
 }
 div{
     padding-bottom: 10px;
+    padding-top: 40px;
+}
+div2{
     display: grid;
+    padding-bottom: 10px;
     padding-top: 40px;
 }
 
