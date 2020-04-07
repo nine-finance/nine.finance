@@ -162,7 +162,8 @@ CKEDITOR_IMAGE_BACKEND = "pillow"
 AWS_QUERYSTRING_AUTH = False
 CKEDITOR_CONFIGS = {
     'default':{
-        'toolbar': 'None'
+        'toolbar': 'None',
+        'extraPlugins': 'embed',
 
     },
     'special': {
