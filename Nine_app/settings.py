@@ -162,7 +162,7 @@ CKEDITOR_IMAGE_BACKEND = "pillow"
 AWS_QUERYSTRING_AUTH = False
 CKEDITOR_CONFIGS = {
     'default': {
-        'extraPlugins': ','.join(['Embed', 'VideoDetector'])
+        'Plugins': ','.join(['Embed', 'VideoDetector'])
     }
 }
 
