@@ -160,5 +160,10 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 CKEDITOR_UPLOAD_PATH = "blog_media/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
 AWS_QUERYSTRING_AUTH = False
-
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': [['Embed', 'VideoDetector']],
+        'extraPlugins': ','.join(['Embed', 'VideoDetector'])
+    }
+}
 
