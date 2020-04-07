@@ -156,17 +156,14 @@ AWS_DEFAULT_ACL = None
 DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 django_heroku.settings(locals())
-
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 CKEDITOR_UPLOAD_PATH = "blog_media/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
 AWS_QUERYSTRING_AUTH = False
 CKEDITOR_CONFIGS = {
     'default': {
-        'toolbar': 'Custom',
-        'toolbar_Custom': [['Source', 'Embed', 'Bold', 'Italic', 'VideoDetector', 'Underline'],
-                           ['NumberedList', 'BulletedList', 'Indent', 'Blockquote', 'JustifyLeft', 'JustifyCenter', 'JustifyRight'],
-                           ['Link', 'Unlink', 'Image', 'Styles', 'Format']
-                           ],
+        'toolbar': 'Full',
+        'extraPlugins': ','.join(['Embed', 'VideoDetector'])
     }
 }
 
