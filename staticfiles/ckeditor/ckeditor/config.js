@@ -35,4 +35,7 @@ CKEDITOR.editorConfig = function( config ) {
 
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
+
+	//Simplify the embed urls
+	config.embed_provider = '//iframe.ly/api/oembed?url={url}&callback={callback}&api_key=990eb4dd3e54739194e388'
 };
