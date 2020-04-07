@@ -165,14 +165,6 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'None',
         'extraPlugins': 'embed',
 
-    },
-    'special': {
-        'toolbar': 'special',
-        'toolbar_special': [['Embed', 'Image', 'Flash', 'Table',],
-                            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-','JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
-                            ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript'],
-                            ['Styles', 'Format', 'Font', 'FontSize', 'TextColor', 'BGColor', 'Link', 'Unlink',]],
-        'extraPlugins': 'embed'
     }
 }
 
