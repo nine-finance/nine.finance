@@ -9,7 +9,7 @@ body {
     color: #000000;
     margin-top: 7rem;
 }
-p, a{
+p, a, blockquote{
     top: 50%;
     color: #cbd5db;
     justify-content: center;
