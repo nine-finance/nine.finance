@@ -8,7 +8,7 @@
      </video>
  </div2>
 </section>
-    <h1> Our Stories so Far</h1>
+    <h1 class="display-header"> Our Stories so Far</h1>
     <p> Money is everywhere, yet we still have questions.&nbsp;In these stories we are trying to get the subjective truth, and understand how and why the numbers affect us.</p>
 <section class="blog" >
     {% for post in posts%}
@@ -16,7 +16,7 @@
             <article>
                 <a href="{% url 'post-detail' post.id %}"><img class="article-img" src="{{ post.media.url}}" alt="blog media"></a>
             </article>
-            <h3 class="article-title" ><a href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h3>
+            <h1 class="article-title" ><a href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h1>
             <p class="article-content" >{{ post.summary }}</p>
         </div1>
     {% endfor %}
