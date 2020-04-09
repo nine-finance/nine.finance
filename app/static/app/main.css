@@ -53,13 +53,13 @@ h2 {
 ul {
     padding-top: 10px;
     padding-bottom: 20px;
-    color: #F7F7F7;
+    color: #FFFFFF;
     max-width: 640px;
     justify-content: center;
     text-align: left;
 }
 p{
-    color: #F7F7F7;
+    color: #FFFFFF;
     text-align: left;
     justify-content: left;
     font-size: 18px;
@@ -68,7 +68,7 @@ p{
     max-width: 640px;
 }
 a{
-    color: #F7F7F7;
+    color: #FFFFFF;
     width: inherit;
 }
 a:hover{
@@ -123,7 +123,7 @@ div2{
     top: 0;
 }
 .card-text{
-    color: #F7F7F7;
+    color: #FFFFFF;
 }
 /*Nine Logo at the top + Animation */
 #logo{
@@ -195,7 +195,7 @@ video{
 }
 
 .article-title {
-    color: #F7F7F7;
+    color: #FFFFFF;
     padding-bottom: 5px;
     padding-top: 5px;
     max-width: 640px ;
