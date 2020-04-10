@@ -5,7 +5,7 @@
 }
 body {
     background: #000000;
-    color: #F7F7F7;
+    color: #ffffff;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -216,6 +216,13 @@ a.article-title:hover {
     width: 100%;
     text-align: left;
 
+}
+img{
+    max-width: 640px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 0 0 0 0;
 }
 
 .article-img {

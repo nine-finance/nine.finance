@@ -6,31 +6,56 @@
 
 body {
     background: #000000;
-    color: #000000;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
     margin-top: 7rem;
 }
 p, a, blockquote{
     top: 50%;
-    color: #cbd5db;
+    color: #ffffff;
     justify-content: center;
+    font-size: 18px;
+    line-height: 27px;
     display: flex;
     font-family: 'Noto Sans';
 }
 a:hover{
     color: white;
 }
-h1, h2, h3, h4, h5, h6 {
-    color: #cbd5db;
+h1{
+    color: #FFFFFF;
     font-family: 'Noto Sans';
-    font-style: italic;
-    font-weight: bold;
-    text-transform: uppercase;
-
+    font-style: normal;
+    font-weight: 600;
+    max-width: 640px;
+    font-size: 54px;
+    line-height: 90.5%;
+    letter-spacing: -0.09em;
+    max-width: 640px;
+    justify-content: center;
+    text-align: left;
 }
+h2 {
+    color: #FFFFFF;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    max-width: 640px;
+    font-size: 36px;
+    line-height: 90.5%;
+    letter-spacing: -0.09em;
+    justify-content: center;
+    text-align: left;
+}
+
 .preload{
     display: block;
     position: fixed;
-    width:400px;
+    width: 100%;
+    max-width: 640px;
     top: 40%;
     left:0;
     right: 0;
@@ -38,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .button1{
     background-color: transparent;
-    border: 2px solid #cbd5db;
+    border: 1px solid #ffffff;
     text-align: center;
 
 }
