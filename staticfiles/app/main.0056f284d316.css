@@ -5,35 +5,70 @@
 }
 body {
     background: #000000;
-    color: #000000;
+    color: #F7F7F7;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
     margin-top: 7rem;
 }
-
-
-h1, h2, h3 {
-    color: #cbd5db;
+.display-header{
+    color: #FFFFFF;
     font-family: 'Noto Sans';
-    font-weight: bold;
-    /*text-transform: uppercase;*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 90.5%;
+    letter-spacing: -0.09em;
+    max-width: 640px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
+}
+h1{
+    color: #FFFFFF;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    max-width: 640px;
+    font-size: 54px;
+    line-height: 90.5%;
+    letter-spacing: -0.09em;
+    max-width: 640px;
+    justify-content: center;
+    text-align: left;
+}
+h2 {
+    color: #FFFFFF;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    max-width: 640px;
+    font-size: 36px;
+    line-height: 90.5%;
+    letter-spacing: -0.09em;
+    justify-content: center;
+    text-align: left;
 }
 
 ul {
     padding-top: 10px;
     padding-bottom: 20px;
-    display: inline flex;
+    color: #F7F7F7;
+    max-width: 640px;
     justify-content: center;
+    text-align: left;
 }
 p{
-    color: #cbd5db;
-    text-align: center;
-    justify-content: center;
+    color: #F7F7F7;
+    text-align: left;
+    justify-content: left;
+    font-size: 18px;
+    line-height: 27px;
     padding-bottom: 25px;
     max-width: 640px;
 }
 a{
-    color: #cbd5db;
+    color: #F7F7F7;
     width: inherit;
 }
 a:hover{
@@ -43,9 +78,16 @@ a:hover{
 }
 div{
     padding-bottom: 10px;
+    padding-top: 10px;
+    max-width: 640px ;
+    justify-items: center;
+}
+div2{
     display: grid;
+    padding-bottom: 40px;
     padding-top: 40px;
 }
+
 .blog{
     text-align: center;
     display: grid;
@@ -81,7 +123,7 @@ div{
     top: 0;
 }
 .card-text{
-    color: #cbd5db;
+    color: #F7F7F7;
 }
 /*Nine Logo at the top + Animation */
 #logo{
@@ -90,7 +132,7 @@ div{
     height: 73px;
 }
 #logo:hover{
-    filter: url(#glow);
+    filter: url("#glow");
 }
 
 /* Images & Icons */
@@ -153,7 +195,7 @@ video{
 }
 
 .article-title {
-    color: #cbd5db;
+    color: #F7F7F7;
     padding-bottom: 5px;
     padding-top: 5px;
     max-width: 640px ;
@@ -186,6 +228,7 @@ a.article-title:hover {
 article {
     width: inherit;
     height: inherit;
+    max-width: 640px;
     border: 1px solid #ffffff;
 }
 .article-svg {
