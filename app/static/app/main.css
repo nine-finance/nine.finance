@@ -13,22 +13,24 @@ body {
 h1, h2, h3 {
     color: #cbd5db;
     font-family: 'Noto Sans';
-    font-weight: bold;
-    /*text-transform: uppercase;*/
+    font-weight: bolder;
+    max-width: 640px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 
 ul {
     padding-top: 10px;
     padding-bottom: 20px;
-    display: inline flex;
+    color: #cbd5db;
+    max-width: 640px;
     justify-content: center;
+    text-align: left;
 }
 p{
     color: #cbd5db;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     padding-bottom: 25px;
     max-width: 640px;
 }
@@ -43,9 +45,16 @@ a:hover{
 }
 div{
     padding-bottom: 10px;
+    padding-top: 10px;
+    max-width: 640px ;
+    justify-items: center;
+}
+div2{
     display: grid;
+    padding-bottom: 40px;
     padding-top: 40px;
 }
+
 .blog{
     text-align: center;
     display: grid;
@@ -186,6 +195,7 @@ a.article-title:hover {
 article {
     width: inherit;
     height: inherit;
+    max-width: 640px;
     border: 1px solid #ffffff;
 }
 .article-svg {

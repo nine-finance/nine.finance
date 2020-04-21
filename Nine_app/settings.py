@@ -13,6 +13,7 @@ import os
 import boto3
 import django_heroku
 import django.contrib.staticfiles
+import PIL
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['167.172.129.47']
 
@@ -85,12 +86,12 @@ WSGI_APPLICATION = 'Nine_app.wsgi.application'
 
 DATABASES = {
     'default': {
-    'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    'NAME': os.environ.get('PSQL_DB_NAME'),
-    'USER': os.environ.get('PSQL_USERNAME'),
-    'PASSWORD': os.environ.get('PSQL_PASSWORD'),
-    'HOST': os.environ.get('PSQL_HOSTNAME'),
-    'PORT': os.environ.get('PSQL_PORT')
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': os.environ.get('PSQL_DB_NAME'),
+        'USER': os.environ.get('PSQL_USERNAME'),
+        'PASSWORD': os.environ.get('PSQL_PASSWORD'),
+        'HOST': os.environ.get('PSQL_HOSTNAME'),
+        'PORT': os.environ.get('PSQL_PORT'),
     }
 }
 
@@ -155,7 +156,15 @@ AWS_DEFAULT_ACL = None
 DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 django_heroku.settings(locals())
-
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 CKEDITOR_UPLOAD_PATH = "blog_media/"
+CKEDITOR_IMAGE_BACKEND = "pillow"
+AWS_QUERYSTRING_AUTH = False
+CKEDITOR_CONFIGS = {
+    'default':{
+        'toolbar': 'None',
+        'extraPlugins': 'embed',
 
+    }
+}
 
