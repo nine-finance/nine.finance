@@ -115,6 +115,14 @@ p{
     padding-bottom: 25px;
     max-width: 640px
 }
+blockquote{
+    top: 50%;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    font-family: 'Noto Sans';
+}
 a{
     color: #FFFFFF;
     width: inherit;
