@@ -44,6 +44,7 @@ body {
     font-size: 160px;
     line-height: 90.5%;
     letter-spacing: -0.09em;
+    max-width: 640px;
     justify-content: left;
 
 }
@@ -218,15 +219,9 @@ div2{
 }
 .item1{
     max-width: 100%;
-    color: #FFFFFF;
-    text-align: left;
-    justify-content: left;
-    font-size: 18px;
-    line-height: 27px;
-    padding-bottom: 25px;
 }
 .item2{
-    max-width: 100%;
+    max-width: 50%;
 }
 #header{
     top: 0;
