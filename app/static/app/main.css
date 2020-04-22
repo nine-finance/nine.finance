@@ -120,7 +120,7 @@ blockquote{
     color: #ffffff;
     font-size: 18px;
     line-height: 27px;
-    display: block;
+    display: grid;
     font-family: 'Noto Sans';
 }
 a{
