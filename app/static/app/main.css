@@ -118,9 +118,9 @@ p{
 blockquote{
     top: 50%;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 18px;
     line-height: 27px;
-    display: flex;
+    display: block;
     font-family: 'Noto Sans';
 }
 a{
