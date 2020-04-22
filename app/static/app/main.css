@@ -29,8 +29,8 @@ body {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 280px;
-    line-height: 88.7%;
+    font-size: 160px;
+    line-height: 90.5%;
     letter-spacing: -0.09em;
     max-width: 640px;
     justify-content: left;
@@ -41,8 +41,8 @@ body {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 288px;
-    line-height: 111%;
+    font-size: 160px;
+    line-height: 90.5%;
     letter-spacing: -0.09em;
     max-width: 640px;
     justify-content: left;
@@ -53,7 +53,7 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 140px;
-    line-height: 88.7%;
+    line-height: 90.5%;
     letter-spacing: -0.09em;
     max-width: 640px;
     justify-content: left;
@@ -99,7 +99,6 @@ p{
     font-size: 18px;
     line-height: 27px;
     padding-bottom: 25px;
-    letter-spacing: -0.09em;
     max-width: 640px
 }
 p1{
@@ -110,7 +109,6 @@ p1{
     font-weight: 600;
     line-height: 112%;
     padding-bottom: 25px;
-    letter-spacing: -0.09em;
     max-width: 640px
 }
 a{
@@ -141,7 +139,7 @@ div2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
-    grid-column-gap: 5px;
+    grid-column-gap: 15px;
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 700px;
@@ -153,7 +151,7 @@ div2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
-    grid-column-gap: 5px;
+    grid-column-gap: 15px;
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 700px;
@@ -165,7 +163,7 @@ div2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
-    grid-column-gap: 5px;
+    grid-column-gap: 15px;
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 700px;
@@ -177,7 +175,7 @@ div2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
-    grid-column-gap: 5px;
+    grid-column-gap: 15px;
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 700px;
