@@ -57,6 +57,7 @@ body {
     letter-spacing: -0.09em;
     max-width: 640px;
     justify-content: left;
+    padding-bottom: 20px;
 }
 h1{
     color: #FFFFFF;
@@ -178,7 +179,7 @@ div2{
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
     grid-column-gap: 1000px;
-    grid-row-gap: 300px;
+    grid-row-gap: 200px;
     max-width: 900px;
     max-height: 700px;
     padding-bottom: 40px;
@@ -320,6 +321,9 @@ img{
     height: auto;
     justify-content: center;
     margin: 0 0 0 0;
+}
+.everyone{
+    justify-content: left;
 }
 
 .article-img {
