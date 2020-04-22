@@ -111,7 +111,7 @@ p{
     justify-content: left;
     font-size: 18px;
     line-height: 27px;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
     max-width: 640px
 }
 a{
@@ -235,7 +235,7 @@ div2{
     height: 73px;
 }
 #logo:hover{
-    filter: url(#glow);
+    filter: url("#glow");
 }
 
 /* Images & Icons */

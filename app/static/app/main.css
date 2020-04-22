@@ -111,7 +111,7 @@ p{
     justify-content: left;
     font-size: 18px;
     line-height: 27px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     max-width: 640px
 }
 a{
@@ -141,7 +141,7 @@ div2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
-    grid-column-gap: 25px;
+    grid-column-gap: 40px;
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 1500px;
@@ -177,9 +177,9 @@ div2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
-    grid-column-gap: 15px;
+    grid-column-gap: 0px;
     grid-row-gap: 20px;
-    max-width: 1200px;
+    max-width: 900px;
     max-height: 1500px;
     padding-bottom: 40px;
     padding-top: 20px;
