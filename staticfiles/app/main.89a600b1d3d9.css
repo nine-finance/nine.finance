@@ -137,7 +137,7 @@ div2{
     padding-top: 40px;
 }
 .loader{
-    text-align: left;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
@@ -149,7 +149,7 @@ div2{
     padding-top: 20px;
 }
 .nonprofit{
-    text-align: left;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
@@ -161,7 +161,7 @@ div2{
     padding-top: 20px;
 }
 .Transparency{
-    text-align: left;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
@@ -173,7 +173,7 @@ div2{
     padding-top: 20px;
 }
 .We{
-    text-align: left;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
@@ -241,7 +241,7 @@ div2{
     height: 73px;
 }
 #logo:hover{
-    filter: url(#glow);
+    filter: url("#glow");
 }
 
 /* Images & Icons */
