@@ -99,6 +99,7 @@ div2{
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 700px;
+    padding-bottom: 40px;
 }
 .nonprofit{
     text-align: center;
@@ -109,6 +110,7 @@ div2{
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 700px;
+    padding-bottom: 40px;
 }
 .Transparency{
     text-align: center;
@@ -119,6 +121,7 @@ div2{
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 700px;
+    padding-bottom: 40px;
 }
 .We{
     text-align: center;
@@ -129,6 +132,7 @@ div2{
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 700px;
+    padding-bottom: 40px;
 }
 .blog{
     text-align: center;
@@ -139,6 +143,7 @@ div2{
     grid-row-gap: 20px;
     max-width: 900px;
     max-height: 700px;
+    padding-bottom: 40px;
 }
 .timeline{
     display: grid;
