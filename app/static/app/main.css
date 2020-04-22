@@ -118,8 +118,8 @@ p{
 blockquote{
     top: 50%;
     color: #ffffff;
-    font-size: 18px;
-    line-height: 90.5%;
+    font-size: 10px;
+    line-height: 27px;
     display: flex;
     font-family: 'Noto Sans';
 }
