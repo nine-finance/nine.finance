@@ -227,6 +227,7 @@ div2{
 }
 .item2{
     max-width: 100%;
+    color: #FFFFFF;
 }
 #header{
     top: 0;
@@ -241,7 +242,7 @@ div2{
     height: 73px;
 }
 #logo:hover{
-    filter: url(#glow);
+    filter: url("#glow");
 }
 
 /* Images & Icons */
