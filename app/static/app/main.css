@@ -101,16 +101,7 @@ p{
     padding-bottom: 25px;
     max-width: 640px
 }
-p1{
-    color: #FFFFFF;
-    text-align: left;
-    justify-content: left;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 90.5%;
-    padding-bottom: 25px;
-    max-width: 640px
-}
+
 a{
     color: #FFFFFF;
     width: inherit;
@@ -118,7 +109,6 @@ a{
 a:hover{
     color: white;
     cursor: pointer;
-    text-decoration: none;
 }
 div{
     padding-bottom: 10px;
