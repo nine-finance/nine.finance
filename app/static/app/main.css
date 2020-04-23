@@ -30,7 +30,7 @@ body {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 90px;
+    font-size: 100px;
     line-height: 112%;
     letter-spacing: -0.09em;
     margin: 0 0 0 0;
@@ -64,7 +64,7 @@ body {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 140px;
+    font-size: 100px;
     line-height: 90.5%;
     letter-spacing: -0.09em;
     max-width: 640px;
@@ -115,6 +115,16 @@ p{
     line-height: 27px;
     padding-bottom: 25px;
     max-width: 640px
+}
+p1{
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 25px;
+    max-width: 640px
+
 }
 a{
     color: #FFFFFF;
