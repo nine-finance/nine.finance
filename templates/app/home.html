@@ -53,9 +53,9 @@
 <section class="blog" >
     <div1>
             <article>
-                <a href="{% url 'blog-more' post1.id %}"><img class="article-img" src="s3://nine-app-media/blog_media/ugly_numbers-min.png" alt="blog media"></a>
+                <a href="{% url 'blog-more'%}"><img class="article-img" src="s3://nine-app-media/blog_media/ugly_numbers-min.png" alt="blog media"></a>
             </article>
-            <h1 class="article-title" ><a href="{% url 'blog-more' post1.id %}">Budgeting 101</a></h1>
+            <h1 class="article-title" ><a href="{% url 'blog-more' %}">Budgeting 101</a></h1>
             <p class="article-content" >Budget - something only grown ups do. However, because we stay forever young we never actually get to it.</p>
     </div1>
     {% for post in posts%}
