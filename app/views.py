@@ -21,10 +21,18 @@ def blog(request):
 
 class PostListView(ListView):
     model = post
-    template_name = 'app/home.html', 'app/blog.html'
+    template_name = 'app/home.html'
     context_object_name = 'posts'
     ordering = ['-date']
 
+class PostListView1(ListView):
+    model = post1
+    template_name = 'app/blog.html'
+    context_object_name = 'posts1'
+    ordering = ['-date']
 
 class PostDetailView(DetailView):
     model= post
+
+class PostDetailView1(DetailView):
+    model= post1
