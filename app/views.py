@@ -13,10 +13,15 @@ def home(request):
 def preloader(request):
     return render(request, "app/preloader.html")
 
+def blog(request):
+    context={
+        "posts1": post1.objects.all()
+    }
+    return render(request, "app/blog.html", context)
 
 class PostListView(ListView):
     model = post
-    template_name = 'app/home.html'
+    template_name = 'app/home.html', 'app/blog.html'
     context_object_name = 'posts'
     ordering = ['-date']
 
