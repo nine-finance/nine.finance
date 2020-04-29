@@ -51,6 +51,13 @@
     <h1 class="display-header" style="text-align: center"> Our Stories so Far</h1>
     <div1><p> Money is everywhere, yet we still have questions.&nbsp;In these stories we are trying to get the subjective truth, we want to understand why and how the numbers affect us.</p></div1>
 <section class="blog" >
+    <div1>
+            <article>
+                <a href="{% url 'blog-home' post1.id %}"><img class="article-img" src="s3://nine-app-media/blog_media/ugly_numbers-min.png" alt="blog media"></a>
+            </article>
+            <h1 class="article-title" ><a href="{% url 'blog-home' post1.id %}">Budgeting 101</a></h1>
+            <p class="article-content" >Budget - something only grown ups do. However, because we stay forever young we never actually get to it. Why do we avoid it? And how do we master it? In this piece of content we are looking at the scary number and why everyone (even countries) are bad at it. </p>
+    </div1>
     {% for post in posts%}
         <div1>
             <article>
