@@ -8,7 +8,7 @@ def home(request):
         "times": timeline.objects.all(),
         "posts": post.objects.all()
     }
-    return render(request, "app/home.html", context )
+    return render(request, "app/home.html", context)
 
 def preloader(request):
     return render(request, "app/preloader.html")
