@@ -5,8 +5,8 @@
         <article>
             <img class="article-img" src="{{ post1.media.url}}" alt="blog media">
         </article>
-        <h1 class="article-title"><a href="{% url 'post-detail' post1.id %}">{{ post1.title }}</a></h1>
-        <div1 class="article-content">{{ post1.summary }}</div1>
+        <h1 class="article-title">{{ post1.title }}</h1>
+        <div1 style="max-width: 640px" class="article-content">{{ post1.summary }}</div1>
     </div1>
     {% endfor %}
 {%endblock content%}
