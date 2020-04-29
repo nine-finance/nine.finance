@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import timeline
 from django.views.generic import ListView, DetailView
-from .models import post
+from .models import post, post1
 
 def home(request):
     context= {
