@@ -1,8 +1,7 @@
 {% extends "app/base.html" %}
 {% block content %}
     <h1 class="display-header" style="text-align: center">Budgeting 101</h1>
-    <div1><p>Budget - something only grown ups do. However, because we stay forever young we never actually get to it. Why do we avoid it? And how do we master it? In this piece of content we are looking at the scary number and why everyone (even countries) are bad at it.  </p></div1>
-    <section class="blog">
+    <div1><p>Budget - something only grown ups do. However, because we stay forever young we never actually get to it. </p></div1>
     {% for post1 in posts1%}
     <div1>
         <article>
@@ -12,6 +11,6 @@
         <h1 class="article-title"><a href="{% url 'blogpost-detail' post1.id %}">{{ post1.title }}</a></h1>
         <p class="article-content">{{ post1.summary }}</p>
     </div1>
+    <br>
     {% endfor %}
-    </section>
 {%endblock content%}
