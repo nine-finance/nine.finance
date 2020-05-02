@@ -360,3 +360,6 @@ article {
     max-width: 140px;
     max-height: 34px;
 }
+.fixed-top{
+    padding: 10px;
+}
