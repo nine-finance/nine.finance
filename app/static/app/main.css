@@ -145,6 +145,10 @@ div1{
 div2{
     display: grid;
 }
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .loader{
     text-align: left;
