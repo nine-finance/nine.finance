@@ -149,9 +149,7 @@ div2{
     padding-bottom: 40px;
     padding-top: 40px;
 }
-section {
-    padding-top: 40px;
-}
+
 .loader{
     text-align: left;
     display: grid;
@@ -160,7 +158,7 @@ section {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     max-width: 900px;
-    max-height: 1500px;
+    height: 1024px;
     padding-bottom: 40px;
     padding-top: 20px;
 }
@@ -172,7 +170,7 @@ section {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     max-width: 900px;
-    max-height: 700px;
+    height: 1024px;
     padding-bottom: 40px;
     padding-top: 20px;
 }
@@ -196,7 +194,7 @@ section {
     grid-column-gap: 1000px;
     grid-row-gap: 100px;
     max-width: 900px;
-    max-height: 700px;
+    max-height: 1024px;
     padding-bottom: 40px;
     padding-top: 20px;
 }
