@@ -149,6 +149,9 @@ div2{
     padding-bottom: 40px;
     padding-top: 40px;
 }
+section {
+    padding-top: 40px;
+}
 .loader{
     text-align: left;
     display: grid;
