@@ -144,9 +144,6 @@ div1{
 }
 div2{
     display: grid;
-}
-section{
-    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -158,7 +155,7 @@ section{
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     max-width: 900px;
-    height: 1024px;
+    max-height: 1024px;
     padding-bottom: 40px;
     padding-top: 20px;
 }
