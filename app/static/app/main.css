@@ -23,7 +23,6 @@ body {
     letter-spacing: -0.09em;
     max-width: 640px;
     justify-content: center;
-    padding-top: 40px;
 }
 .header{
     color: #FFFFFF;
@@ -70,8 +69,6 @@ body {
     max-width: 640px;
     text-align: left;
     justify-content: left;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 h1{
     color: #FFFFFF;
