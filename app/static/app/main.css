@@ -118,11 +118,19 @@ p1{
     color: #FFFFFF;
     text-align: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 27px;
     line-height: 27px;
     padding-bottom: 25px;
     max-width: 640px
-
+}
+p2{
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 36px;
+    line-height: 27px;
+    padding-bottom: 25px;
+    max-width: 640px
 }
 a{
     color: #FFFFFF;
