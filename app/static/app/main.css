@@ -98,8 +98,8 @@ ul {
 }
 p{
     color: #FFFFFF;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     font-size: 18px;
     line-height: 27px;
     padding-bottom: 25px;
@@ -360,15 +360,12 @@ article {
   vertical-align: middle;
 }
 .button1{
-    display: inline-block;
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
     justify-content: center;
-    align-items:center ;
     width: 300px;
     padding-bottom: 20px;
-    vertical-align: center;
 }
 .fixed-top{
     padding: 10px;
