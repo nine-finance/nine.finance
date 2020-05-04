@@ -141,6 +141,7 @@ div{
 div1{
     max-width: 640px;
     justify-content: center;
+    padding-bottom: 20px;
 }
 div2{
     display: grid;
