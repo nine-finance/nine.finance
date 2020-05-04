@@ -53,7 +53,7 @@ body {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 90px;
+    font-size: 81px;
     line-height: 90.5%;
     letter-spacing: -0.09em;
     max-width: 640px;
@@ -301,8 +301,7 @@ video{
     padding-bottom: 5px;
     padding-top: 5px;
     max-width: 640px ;
-    font-min-size: 24px;
-    font-max-size: 54px;
+    font-size: 24px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -360,7 +359,7 @@ article {
     justify-content: center;
     align-items:center ;
     width: 300px;
-    height: 45px;
+    max-height: 40px;
     padding-bottom: 20px;
 }
 .fixed-top{
