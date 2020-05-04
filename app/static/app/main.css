@@ -30,7 +30,7 @@ body {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 90px;
+    font-size: 81px;
     line-height: 112%;
     letter-spacing: -0.09em;
     margin: 0 0 0 0;
@@ -81,7 +81,6 @@ h1{
     font-size: 54px;
     line-height: 90.5%;
     letter-spacing: -0.09em;
-    max-width: 640px;
     justify-content: center;
     text-align: center;
 }
@@ -120,7 +119,7 @@ p1{
     text-align: center;
     justify-content: center;
     font-size: 27px;
-    line-height: 27px;
+    line-height: 112%;
     padding-bottom: 25px;
     max-width: 640px
 }
@@ -129,7 +128,7 @@ p2{
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    line-height: 27px;
+    line-height: 140%;
     padding-bottom: 25px;
     max-width: 640px
 }
