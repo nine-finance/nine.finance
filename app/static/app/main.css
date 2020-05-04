@@ -142,10 +142,12 @@ div1{
     max-width: 640px;
     justify-content: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 div2{
     display: grid;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .loader{
