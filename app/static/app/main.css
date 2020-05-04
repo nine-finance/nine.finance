@@ -126,6 +126,9 @@ p2{
 a{
     color: #FFFFFF;
     width: inherit;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
 }
 a:hover{
     color: white;
