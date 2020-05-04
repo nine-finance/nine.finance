@@ -1,10 +1,10 @@
 {% extends "app/base.html" %}
 {% block content %}
     <div1>
+        <h1 class="article-title">{{ post.title }}</h1>
         <article>
             <img class="article-img" src="{{ post.media.url}}" alt="blog media">
         </article>
-        <h1 class="article-title">{{ post.title }}</h1>
         <div1 class="article-content">{{ post.content | safe }}</div1>
     </div1>
 {%endblock content%}

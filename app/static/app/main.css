@@ -17,7 +17,7 @@ body {
     color: #FFFFFF;
     font-family: 'Noto Sans';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 69px;
     line-height: 90.5%;
     letter-spacing: -0.09em;
@@ -36,18 +36,7 @@ body {
     margin: 0 0 0 0;
     justify-content: center;
 }
-.we{
-    color: #FFFFFF;
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 160px;
-    line-height: 90.5%;
-    letter-spacing: -0.09em;
-    max-width: 640px;
-    justify-content: center;
 
-}
 .amount{
     color: #FFFFFF;
     font-family: 'Noto Sans';
@@ -63,7 +52,7 @@ body {
     color: #FFFFFF;
     font-family: 'Noto Sans';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 90px;
     line-height: 90.5%;
     letter-spacing: -0.09em;
@@ -76,7 +65,7 @@ h1{
     color: #FFFFFF;
     font-family: 'Noto Sans';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     max-width: 640px;
     font-size: 54px;
     line-height: 90.5%;
@@ -88,7 +77,7 @@ h2 {
     color: #FFFFFF;
     font-family: 'Noto Sans';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     max-width: 640px;
     font-size: 36px;
     line-height: 90.5%;
@@ -313,8 +302,8 @@ video{
     padding-top: 5px;
     max-width: 640px ;
     width: 100%;
-    text-align: left;
-    justify-content: left;
+    text-align: center;
+    justify-content: center;
 }
 
 a.article-title:hover {
@@ -366,8 +355,8 @@ article {
     border: 2px solid #ffffff;
     text-align: center;
     justify-content: center;
-    max-width: 300px;
-    max-height: 34px;
+    width: 300px;
+    height: 45px;
     padding-bottom: 20px;
 }
 .fixed-top{

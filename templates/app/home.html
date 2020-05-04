@@ -14,7 +14,7 @@
     <div1 class="item1">
         <h1 class="whitepaper">nonprofit</h1>
         <br>
-        <p1>Eradicating poverty (SDG-1)<br><br>Providing quality education (SDG-4)<br><br>Promoting decent work and economic growth (SDG-8)<br><br>Reducing Inequalities (SDG-10)<br><br>Ensuring sustainable consumption and production (SDG-12)</p1>
+        <p1>Eradicating poverty <br><br>Providing quality education <br><br>Promoting decent work and economic growth <br><br>Reducing Inequalities <br><br>Ensuring sustainable consumption and production </p1>
         <br>
         <br>
         <button class="button button1"><a href="https://docs.google.com/document/d/1Zqq49jSKRnYud73lFe_Njh38J8R5f6ylk3j548KjW9w/edit"> Read our whitepaper</a></button>
@@ -40,8 +40,8 @@
 <section class="nonprofit">
     <div1 class="item1">
         <h1 class="display-header" style="justify-content: left">Blockchain</h1><br>
-        <img class="everyone" src="https://nine-app-media.s3-us-west-2.amazonaws.com/media/Blockchain.png" alt="loader media">
-        <p>What blockchain?<br> Why blockchain? <br> How blockchain? <br><br> <button class="button button1"><a href="#"> Coming Soon</a></button></p>
+        <img class="everyone" src="https://nine-app-media.s3-us-west-2.amazonaws.com/media/Blockchain.png" alt="loader media"><br><br>
+        <p><button class="button button1"><a href="#"> Coming Soon</a></button></p>
     </div1>
 </section>
     <br>
@@ -55,19 +55,19 @@
     <div1><p> Money is everywhere, yet we still have questions.&nbsp;In these stories we are trying to get the subjective truth, we want to understand why and how the numbers affect us.</p></div1>
 <section class="blog" >
     <div1>
+            <h1 class="article-title" ><a href="{% url 'blog-more' %}">Budgeting 101</a></h1>
             <article>
                 <a href="{% url 'blog-more'%}"><img class="article-img" src="https://nine-app-media.s3-us-west-2.amazonaws.com/blog_media/Budgeting+series+/ugly_numbers-min.png" alt="blog media"></a>
             </article>
-            <h1 class="article-title" ><a href="{% url 'blog-more' %}">Budgeting 101</a></h1>
             <p class="article-content" >Budget - something only grown ups do. However, because we stay forever young we never actually get to it.</p>
     </div1>
     <br style="margin-bottom:100px;">
     {% for post in posts%}
         <div1>
+            <h1 class="article-title" ><a href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h1>
             <article>
                 <a href="{% url 'post-detail' post.id %}"><img class="article-img" src="{{ post.media.url}}" alt="blog media"></a>
             </article>
-            <h1 class="article-title" ><a href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h1>
             <p class="article-content" >{{ post.summary }}</p>
         </div1>
     {% endfor %}
