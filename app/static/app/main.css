@@ -157,7 +157,7 @@ div2{
     max-width: 900px;
     max-height: 1024px;
     padding-bottom: 40px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .nonprofit{
     text-align: left;
@@ -167,9 +167,9 @@ div2{
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     max-width: 900px;
-    max-height: 900px;
+    height: 520px;
     padding-bottom: 40px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .Transparency{
     text-align: left;
@@ -181,7 +181,7 @@ div2{
     max-width: 900px;
     max-height: 1500px;
     padding-bottom: 40px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .blog{
     text-align: center;
