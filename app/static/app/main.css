@@ -301,7 +301,7 @@ video{
     padding-bottom: 5px;
     padding-top: 5px;
     max-width: 640px ;
-    font-size: 24px;
+    font-size: 45px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -352,7 +352,7 @@ article {
   vertical-align: middle;
 }
 .button1{
-    display: flex;
+    display: inline-block;
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
