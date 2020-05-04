@@ -2,6 +2,8 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased ;
+    -moz-osx-font-smoothing: grayscale;
 }
 body {
     background: #000000;
@@ -137,7 +139,7 @@ div{
 }
 div1{
     max-width: 640px;
-    justify-content: center;
+    justify-content: left;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -317,7 +319,7 @@ a.article-title:hover {
     padding-top: 5px;
     max-width: 640px;
     width: 100%;
-    text-align: left;
+    text-align: center;
 
 }
 img{
@@ -361,6 +363,7 @@ article {
     width: 300px;
     max-height: 40px;
     padding-bottom: 20px;
+    vertical-align: center;
 }
 .fixed-top{
     padding: 10px;
