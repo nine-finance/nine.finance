@@ -365,8 +365,10 @@ article {
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
+    justify-content: center;
     max-width: 300px;
     max-height: 34px;
+    padding-bottom: 20px;
 }
 .fixed-top{
     padding: 10px;
