@@ -84,8 +84,8 @@ h2 {
     font-size: 36px;
     line-height: 90.5%;
     letter-spacing: -0.09em;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
 }
 
 ul {
