@@ -125,7 +125,7 @@ p2{
 }
 a{
     color: #FFFFFF;
-    width: inherit;
+    max-width: inherit;
     padding-top: 10px ;
     padding-bottom: 10px;
 }
