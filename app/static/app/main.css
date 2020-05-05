@@ -362,11 +362,12 @@ article {
   height: 65px;
   vertical-align: middle;
 }
-.button1{
+button{
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
-    justify-content: center;
+    align-items: center;
+    display: flex;
     width: 300px;
     padding-bottom: 20px;
 }
