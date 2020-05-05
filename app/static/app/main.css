@@ -126,9 +126,8 @@ p2{
 a{
     color: #FFFFFF;
     width: inherit;
-    text-align: center;
-    vertical-align: center;
-    justify-content: center;
+    padding-top: 10px ;
+    padding-bottom: 10px;
 }
 a:hover{
     color: white;
@@ -366,8 +365,6 @@ button{
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
-    align-items: center;
-    display: flex;
     width: 300px;
     padding-bottom: 20px;
 }
