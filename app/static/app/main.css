@@ -158,7 +158,7 @@ div2{
 }
 
 .loader{
-    text-align: left;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
@@ -170,7 +170,7 @@ div2{
     padding-top: 40px;
 }
 .nonprofit{
-    text-align: left;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
@@ -182,7 +182,7 @@ div2{
     padding-top: 40px;
 }
 .Transparency{
-    text-align: left;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
