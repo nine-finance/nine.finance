@@ -122,7 +122,8 @@ p2{
     font-size: 36px;
     line-height: 140%;
     padding-bottom: 25px;
-    max-width: 640px
+    max-width: 640px;
+    max-height: 450px;
 }
 a{
     color: #FFFFFF;
