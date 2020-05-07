@@ -23,7 +23,7 @@ class PostListView(ListView):
     model = post
     template_name = 'app/home.html'
     context_object_name = 'posts'
-    ordering = ['-date']
+    ordering = ['date']
 
 class PostListView1(ListView):
     model = post1
