@@ -11,7 +11,6 @@
  </div1>
 </section>
     <br>
-    <br>
     <h1 class="display-header" style="text-align: center"> Start Learning</h1>
     <div1><p class="article-content"> Money is everywhere, yet we still have questions.&nbsp;In these stories we are trying to get the subjective truth, we want to understand why and how the numbers affect us.</p></div1>
 <section class="blog" >
@@ -22,7 +21,7 @@
             </article>
             <p class="article-content" >Budget - something only grown ups do. However, because we stay forever young we never actually get to it.</p>
     </div1>
-    <br style="margin-bottom:200px;">
+    <br style="margin-bottom:100px;">
     {% for post in posts%}
         <div1>
             <h1 class="article-title" ><a href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h1>
