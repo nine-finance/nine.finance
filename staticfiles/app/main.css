@@ -1,4 +1,5 @@
-/* CSS STYLES */
+         /* CSS STYLES */
+    /*This is a GRID LAYOUT */
 * {
     margin: 0 auto;
     box-sizing: border-box;
@@ -14,7 +15,7 @@ body {
     line-height: 27px;
     margin-top: 7rem;
 }
-
+/* DIV & SECTION  HEADERs */
 .display-header{
     color: #FFFFFF;
     font-family: 'Noto Sans';
@@ -38,7 +39,6 @@ body {
     margin: 0 0 0 0;
     justify-content: center;
 }
-
 .amount{
     color: #FFFFFF;
     font-family: 'Noto Sans';
@@ -88,7 +88,7 @@ h2 {
     justify-content: left;
     text-align: left;
 }
-
+/* Miscellaneous */
 ul {
     padding-top: 10px;
     padding-bottom: 20px;
@@ -135,6 +135,7 @@ a:hover{
     color: white;
     cursor: pointer;
 }
+/* DIVs and SECTIONs */
 div{
     padding-bottom: 10px;
     padding-top: 10px;
@@ -158,7 +159,6 @@ div2{
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
 .loader{
     text-align: center;
     display: grid;
@@ -223,6 +223,7 @@ div2{
     justify-items: center;
     align-items: center;
 }
+/* DIV & SECTION items */
 .item-b1, .item-c1, .item-d1, .item-e1, .item-f1, .item-g1, .item-h1, .item-i1{
     cursor: pointer;
 }
@@ -238,7 +239,7 @@ div2{
 .card-text{
     color: #FFFFFF;
 }
-/*Nine Logo at the top + Animation */
+/* Nine Logo at the top + Animation */
 #logo{
     padding-top: 20px;
     width: 62px;
@@ -247,7 +248,6 @@ div2{
 #logo:hover{
     filter: url(#glow);
 }
-
 /* Images & Icons */
 video{
     padding-top: 20px;
@@ -274,7 +274,7 @@ video{
     text-align: center;
     bottom:0 ;
 }
-
+/* Nine Timeline Animations
 .dot, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7,.dot8 {
     cursor: pointer;
     height: 10px;
@@ -294,8 +294,8 @@ video{
 .active, .dot:hover {
   background-color: #717171;
 }
-
-
+*/
+/* Blog & Blog Posts */
 .content-section {
   padding: 10px 20px;
   border: 1px solid #ffffff;
@@ -306,7 +306,6 @@ video{
   justify-items: center;
   align-items: center;
 }
-
 .article-title {
     color: #FFFFFF;
     padding-bottom: 5px;
@@ -317,12 +316,10 @@ video{
     text-align: center;
     justify-content: center;
 }
-
 a.article-title:hover {
   color: #ffffff;
   text-decoration: none;
 }
-
 .article-content {
     padding-bottom: 30px;
     padding-top: 5px;
@@ -338,11 +335,6 @@ img{
     justify-content: center;
     margin: 0 0 0 0;
 }
-.everyone{
-    justify-content: left;
-    padding-bottom: 10px;
-}
-
 .article-img {
     max-width: 640px;
     width: 100%;
@@ -361,6 +353,11 @@ article {
   width: 65px;
   height: 65px;
   vertical-align: middle;
+}
+/* Miscellaneous */
+.everyone{
+    justify-content: left;
+    padding-bottom: 10px;
 }
 .button{
     display: inline-block;

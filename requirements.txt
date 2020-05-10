@@ -36,4 +36,6 @@ requests==2.23.0
 requests-toolbelt==0.9.1
 django-ckeditor==5.9.0
 django-js-asset==1.2.2
-
+uglify-js==3.9.2
+html-minifier==4.0.0
+clean-css==4.2.3
