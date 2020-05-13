@@ -54,6 +54,7 @@ h2 {
 .preload{
     display: block;
     position: fixed;
+    justify-content: center;
     width: 100%;
     max-width: 640px;
     top: 40%;
@@ -66,7 +67,7 @@ h2 {
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
-    justify-content: center;
+    font-size: 18px;
     width: 300px;
     padding-bottom: 10px;
     padding-top: 10px;
