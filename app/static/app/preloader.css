@@ -12,13 +12,18 @@ body {
     font-size: 18px;
     line-height: 27px;
     margin-top: 7rem;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
 }
 p, a, blockquote{
+    top: 50%;
     color: #ffffff;
     justify-content: center;
     text-align: center;
     font-size: 18px;
     line-height: 27px;
+    display: flex;
     font-family: 'Noto Sans';
 }
 a:hover{
@@ -34,7 +39,7 @@ h1{
     line-height: 90.5%;
     letter-spacing: -0.09em;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 h2 {
     color: #FFFFFF;
@@ -46,12 +51,12 @@ h2 {
     line-height: 90.5%;
     letter-spacing: -0.09em;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 
 .preload{
-    display: grid;
-    text-align:center;
+    display: block;
+    position: fixed;
     justify-content: center;
     width: 100%;
     max-width: 640px;
@@ -64,6 +69,8 @@ button {
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
+    left: 0;
+    right: 0;
     font-size: 18px;
     width: 300px;
     padding-bottom: 10px;
