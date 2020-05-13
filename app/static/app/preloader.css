@@ -14,13 +14,11 @@ body {
     margin-top: 7rem;
 }
 p, a, blockquote{
-    top: 50%;
     color: #ffffff;
     justify-content: center;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 27px;
-    display: flex;
     font-family: 'Noto Sans';
 }
 a:hover{
@@ -36,7 +34,7 @@ h1{
     line-height: 90.5%;
     letter-spacing: -0.09em;
     justify-content: center;
-    text-align: left;
+    text-align: center;
 }
 h2 {
     color: #FFFFFF;
@@ -48,12 +46,12 @@ h2 {
     line-height: 90.5%;
     letter-spacing: -0.09em;
     justify-content: center;
-    text-align: left;
+    text-align: center;
 }
 
 .preload{
-    display: block;
-    position: fixed;
+    display: grid;
+    text-align:center;
     justify-content: center;
     width: 100%;
     max-width: 640px;
@@ -62,8 +60,7 @@ h2 {
     right: 0;
 
 }
-.button {
-    display: inline-block;
+button {
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
