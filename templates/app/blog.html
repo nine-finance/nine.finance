@@ -14,19 +14,17 @@
     </div1>
     <br>
     {% endfor %}
-{%endblock content%}
-{% block content %}
-<h1 class="display-header" style="text-align: center"><a id="saving">An Introduction to Saving</a></h1>
-    <div1><p> Why is it so hard so save ?</p></div1>
-    {% for post2 in posts2%}
-    <div1>
-        <h1 class="article-title"><a href="{% url 'blogpost-detail' post2.id %}">{{ post2.title }}</a></h1>
-        <article>
-            <a href="{% url 'blogpost-detail' post2.id %}">
-                <img class="article-img" src="{{ post2.media.url}}" alt="blog media"></a>
-        </article>
-        <p class="article-content">{{ post2.summary }}</p>
-    </div1>
-    <br>
-    {% endfor %}
+    <h1 class="display-header" style="text-align: center"><a id="saving">An Introduction to Saving</a></h1>
+        <div1><p> Why is it so hard so save ?</p></div1>
+        {% for post2 in posts2%}
+        <div1>
+            <h1 class="article-title"><a href="{% url 'blogpost-detail' post2.id %}">{{ post2.title }}</a></h1>
+            <article>
+                <a href="{% url 'blogpost-detail' post2.id %}">
+                    <img class="article-img" src="{{ post2.media.url}}" alt="blog media"></a>
+            </article>
+            <p class="article-content">{{ post2.summary }}</p>
+        </div1>
+        <br>
+        {% endfor %}
 {%endblock content%}
