@@ -41,3 +41,13 @@ class post1(models.Model):
     def __str__(self):
         return self.title
 
+class post2(models.Model):
+    title=models.CharField(max_length=100)
+    content=RichTextUploadingField(null=True, blank=True)
+    summary=models.TextField(null=True, blank=True)
+    media = models.ImageField(default='background copy.png', upload_to='blog_media')
+    date=models.DateTimeField(default=timezone.now)
+
+
+    def __str__(self):
+        return self.title
