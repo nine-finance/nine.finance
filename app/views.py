@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import timeline
 from django.views.generic import ListView, DetailView
-from .models import post, post1, post2
+from .models import post, post1
 
 def home(request):
     context= {
@@ -16,7 +16,6 @@ def preloader(request):
 def blog(request):
     context={
         "posts1": post1.objects.all(),
-        "posts2": post2.objects.all()
     }
     return render(request, "app/blog.html", context)
 
@@ -29,7 +28,7 @@ class PostListView(ListView):
 class PostListView1(ListView):
     model = post1
     template_name = 'app/blog.html'
-    context_object_name = 'posts1', 'posts2'
+    context_object_name = 'posts1'
     ordering = ['-date']
 
 class PostDetailView(DetailView):
@@ -37,6 +36,3 @@ class PostDetailView(DetailView):
 
 class PostDetailView1(DetailView):
     model= post1
-
-class PostDetailView2(DetailView):
-    model= post2
