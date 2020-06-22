@@ -7,7 +7,6 @@ urlpatterns = [
     path('home/', views.PostListView.as_view(), name="blog-homepage"),
     path('blog/', views.blog, name="blog-more"),
     path('blog/', views.PostListView1.as_view(), name="blog-home"),
-    path('blog/', views.PostListView2.as_view(), name="blog2-home"),
     path('post/<int:pk>/', views.PostDetailView.as_view(), name="post-detail"),
     path('post1/<int:pk>/', views.PostDetailView1.as_view(), name="blogpost-detail"),
     path('post2/<int:pk>/', views.PostDetailView2.as_view(), name="blogpost2-detail")

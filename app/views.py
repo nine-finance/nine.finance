@@ -29,13 +29,7 @@ class PostListView(ListView):
 class PostListView1(ListView):
     model = post1
     template_name = 'app/blog.html'
-    context_object_name = 'posts1'
-    ordering = ['-date']
-
-class PostListView2(ListView):
-    model = post2
-    template_name = 'app/blog.html'
-    context_object_name = 'posts2'
+    context_object_name = 'posts1', 'posts2'
     ordering = ['-date']
 
 class PostDetailView(DetailView):
