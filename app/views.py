@@ -19,6 +19,10 @@ def blog(request):
     }
     return render(request, "app/blog.html", context)
 
+def blog2(request):
+    context={
+    }
+    return render(request, "app/blog2.html", context)
 
 class PostListView(ListView):
     model = post
