@@ -21,7 +21,6 @@ def blog(request):
 
 def blog2(request):
     context={
-        "posts2": post2.objects.all()
     }
     return render(request, "app/blog2.html", context)
 
