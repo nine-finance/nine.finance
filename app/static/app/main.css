@@ -130,6 +130,7 @@ a{
     max-width: 640px;
     padding-top: 10px ;
     padding-bottom: 10px;
+    text-decoration: underline;
 }
 a:hover{
     color: white;
