@@ -132,6 +132,17 @@ a{
     padding-bottom: 10px;
     text-decoration: underline;
 }
+a1{
+    color: #FFFFFF;
+    max-width: 640px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+a1:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
 a:hover{
     color: white;
     cursor: pointer;
