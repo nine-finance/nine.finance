@@ -18,7 +18,7 @@
 <section class="blog" >
     {% for post in posts%}
         <div1>
-            <h1 class="article-title" ><a1 href="{% url 'post-detail' post.id %}">{{ post.title }}</a1></h1>
+            <h1 class="article-title" ><a class="a1" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h1>
             <article>
                 <a href="{% url 'post-detail' post.id %}"><img class="article-img" src="{{ post.media.url}}" alt="blog media"></a>
             </article>
@@ -26,14 +26,14 @@
         </div1>
     {% endfor %}
     <div1>
-        <h1 class="article-title" ><a1 href="{% url 'blog-more' %}">Budgeting 101</a1></h1>
+        <h1 class="article-title" ><a class="a1" href="{% url 'blog-more' %}">Budgeting 101</a></h1>
             <article>
                 <a href="{% url 'blog-more'%}"><img class="article-img" src="https://nine-app-media.s3-us-west-2.amazonaws.com/blog_media/Budgeting+series+/ugly_numbers-min.png" alt="blog media"></a>
             </article>
             <p class="article-content" >Budget - something only grown ups do. However, because we stay forever young we never actually get to it.</p>
     </div1>
     <div1>
-        <h1 class="article-title" ><a1 href="{% url 'blog2-more'%}">A Perspective on Saving</a1></h1>
+        <h1 class="article-title" ><a class="a1" href="{% url 'blog2-more'%}">A Perspective on Saving</a></h1>
             <article>
                 <a href="{% url 'blog2-more'%}"><img class="article-img" src="https://nine-app-media.s3-us-west-2.amazonaws.com/blog_media/time_and_you.jpg" alt="blog media"></a>
             </article>
@@ -48,7 +48,7 @@
         <p1>Eradicating poverty <br><br>Providing quality education <br><br>Promoting decent work and economic growth <br><br>Reducing Inequalities <br><br>Ensuring sustainable consumption and production </p1>
         <br>
         <br>
-        <button class="button button1"><a1 target="_blank" href="https://docs.google.com/document/d/1Zqq49jSKRnYud73lFe_Njh38J8R5f6ylk3j548KjW9w/edit"> Read our Whitepaper</a1></button>
+        <button class="button button1"><a class="a1" target="_blank" href="https://docs.google.com/document/d/1Zqq49jSKRnYud73lFe_Njh38J8R5f6ylk3j548KjW9w/edit"> Read our Whitepaper</a></button>
     </div1>
 </section>
 <!-- SECTION 5 -->
@@ -63,7 +63,7 @@
     <div1 class="item1">
         <h1 class="display-header">Radical<br>Transparency</h1><br>
         <h1 class="amount">$243</h1><br>
-        <button class="button"><a1 target="_blank" href="https://docs.google.com/spreadsheets/d/1dMnaZC32_NHr9ktWD8_NBu6pn3M-5laSakJwqygJyOY/edit#gid=944057300">Our Finances</a1></button>
+        <button class="button"><a class="a1" target="_blank" href="https://docs.google.com/spreadsheets/d/1dMnaZC32_NHr9ktWD8_NBu6pn3M-5laSakJwqygJyOY/edit#gid=944057300">Our Finances</a></button>
     </div1>
 </section>
 <!-- SECTION 6 -->
@@ -73,7 +73,7 @@
     <div1 class="item1">
         <h1 class="display-header" style="justify-content: left">Blockchain</h1><br>
         <img class="everyone" src="https://nine-app-media.s3-us-west-2.amazonaws.com/media/Blockchain.png" alt="loader media"><br><br>
-        <button class="button"><a1 href="#"> Coming Soon</a1></button>
+        <button class="button"><a class="a1" href="#"> Coming Soon</a></button>
     </div1>
 </section>
 <!-- SECTION 7: THE ABANDONED FOR LATER USE SECTION. THE SECTION THAT BIRTHED ALL FUTURE SECTIONS, HE MIGHT BE ABANDONED BUT HE'S YOUR DADDY  -->

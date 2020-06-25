@@ -5,7 +5,7 @@
     <div1><p>Budget - something only grown ups do. However, because we stay forever young we never actually get to it. </p></div1>
     {% for post1 in posts1%}
     <div1>
-        <h1 class="article-title"><a1 href="{% url 'blogpost-detail' post1.id %}">{{ post1.title }}</a1></h1>
+        <h1 class="article-title"><a class="a1" href="{% url 'blogpost-detail' post1.id %}">{{ post1.title }}</a></h1>
         <article>
             <a href="{% url 'blogpost-detail' post1.id %}">
                 <img class="article-img" src="{{ post1.media.url}}" alt="blog media"></a>
