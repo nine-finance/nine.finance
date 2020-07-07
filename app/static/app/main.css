@@ -377,9 +377,14 @@ article {
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
+    transition-duration: 0.4s;
     width: 300px;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+.button:hover{
+    color: white;
+    background-color: #e7e7e7;
 }
 .fixed-top{
     padding: 10px;
