@@ -373,6 +373,8 @@ article {
     padding-bottom: 10px;
 }
 .button{
+    background-color: black;
+    color: white;
     cursor: pointer;
     text-decoration: underline;
     border: 2px solid #ffffff;
