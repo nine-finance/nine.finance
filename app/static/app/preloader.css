@@ -67,6 +67,8 @@ h2 {
 }
 button {
     color: white;
+    cursor: pointer;
+    text-decoration: underline;
     background-color: black;
     border: 2px solid #ffffff;
     text-align: center;
