@@ -66,6 +66,8 @@ h2 {
 
 }
 button {
+    color: white;
+    background-color: black;
     border: 2px solid #ffffff;
     text-align: center;
     left: 0;
