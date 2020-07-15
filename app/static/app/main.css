@@ -373,11 +373,9 @@ article {
     padding-bottom: 10px;
 }
 .button{
-    display: inline-block;
     background-color: transparent;
     border: 2px solid #ffffff;
     text-align: center;
-    transition-duration: 0.4s;
     width: 300px;
     padding-bottom: 10px;
     padding-top: 10px;
