@@ -68,7 +68,6 @@ h2 {
 button {
     color: white;
     cursor: pointer;
-    text-decoration: underline;
     background-color: black;
     border: 2px solid #ffffff;
     text-align: center;
@@ -82,4 +81,5 @@ button {
 button:hover{
     color: white;
     background-color: #C4C4C4;
+    text-decoration: underline;
 }
