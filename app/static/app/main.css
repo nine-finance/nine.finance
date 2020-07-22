@@ -376,7 +376,6 @@ article {
     background-color: black;
     color: white;
     cursor: pointer;
-    text-decoration: underline;
     border: 2px solid #ffffff;
     text-align: center;
     width: 300px;
@@ -386,6 +385,7 @@ article {
 .button:hover{
     color: white;
     background-color: #C4C4C4;
+    text-decoration: underline;
 }
 .fixed-top{
     padding: 10px;
