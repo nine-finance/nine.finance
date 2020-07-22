@@ -10,4 +10,5 @@ urlpatterns = [
     path('blog2/', views.blog2, name="blog2-more"),
     path('post/<int:pk>/', views.PostDetailView.as_view(), name="post-detail"),
     path('post1/<int:pk>/', views.PostDetailView1.as_view(), name="blogpost-detail"),
+    path('post2/<int:pk>/', views.PostDetailView2.as_view(), name="blogpost2-detail"),
 ]
