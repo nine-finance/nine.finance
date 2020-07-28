@@ -1,69 +1,17 @@
 {% extends "app/base.html" %}
 {% block content %}
-<h1 class="display-header" style="text-align: center"><a id="#saving">A Perspective on Saving</a></h1>
-   <article>
-       <img class="article-img" src="https://nine-app-media.s3-us-west-2.amazonaws.com/blog_media/time_and_you.jpg" alt="blog media" alt="blog media">
-   </article>
+<!-- BLOG PAGE FOR SAVING SERIES, SIMILAR BUILD FOR ALL FUTURE SERIES -->
+    <h1 class="display-header" style="text-align: center">A Perspective on Saving</h1>
+    <div1><p>A different perspective on saving might make things easier. After all, who doesn't like to get paid? </p></div1>
+    {% for post2 in posts2%}
     <div1>
-        <p>&nbsp;</p>
-        <p>
-            Saving is paying yourself (your future self).<br>
-            It's never easy to pay anyone. Whether it be, routine bills, a desirable reward, or necessary investments:  it's never fun to take money out of your account.<br>
-            For some reason, saving is a jaded topic. Few ask "how much you got in your savings?" and even fewer feel comfortable answering (Maybe because the answer is $0).
-            You would think that paying yourself is the easiest thing you could ever do, yet the evidence fails to confirm this. Perhaps we never think of saving as paying ourselves.<br>
-            A different perspective on saving might make things easier. After all, who doesn't like to get paid?
-        </p>
-        <h2>Why talk about this now?</h2>
-        <p>Millions of people have lost their jobs, families are stuck at home while economic issues are at an all-time high. And yes, it's time to save. </p>
-        <p>You might remember our prior blog about <a href="https://nine.finance/blog/">budgeting</a>, where we highlighted that</p>
-        <p class="article-content">
-            <strong> your budget = money in - money out </strong>
-        </p>
-        <p>If your budget is negative, then you've got to reduce your spending.
-        If your budget is positive, then you have some extra cash this month. (potential payday for future me!)</p>
-        <p>With this in mind, one of the most effective ways of saving is reducing your expenses. Saving is inherently tied to money in and money out. "I saved $50 today" can simply translate to, "I spent $50 less today than I intended". <br>Bringing things back to the pandemic, <a href="https://www.cnbc.com/2020/05/29/us-savings-rate-hits-record-33percent-as-coronavirus-causes-americans-to-stockpile-cash-curb-spending.html?utm_source=newsletter&utm_medium=email&utm_campaign=newsletter_axiosmarkets&stream=business">according to Economic data,</a> spending over the past few months has been significantly reduced. Malls are closed, restaurants are closed and public gatherings have been significantly reduced. A lot of our monthly expenses come from these activities. This reduction in spending translates directly to an increase in "savable money" </p>
-        <p>Not only has our spending lowered, but there have been record contributions from the government to citizens' personal incomes. Canada and the US have recorded historical unemployment filings, and record-breaking stimulus packages are being distributed (PPE, CAREs, CERB, CESB). Looks like another avenue for saving....</p>
-        <p>So back to our understanding of a budget,</p>
-        <p class="article-content">
-            <strong> pandemic budget = more money in - less money out </strong>
-        </p>
-        <ul>
-            <li>Lower probability that your budget is negative</li>
-            <li>Higher probability that your budget is positive</li>
-        </ul>
-        <p>Herein lies the "PANDEMIC OPPORTUNITY".
-            As members of Gen-Z, we are aware that many students are back home from school with most of us in Canada receiving CESB. This has resulted in a unique summer savings situation.</p>
+        <h1 class="article-title"><a class="a1" href="{% url 'blogpost2-detail' post2.id %}">{{ post2.title }}</a></h1>
         <article>
-        <img class="article-img" style="max-width: 640px"; src="https://nine-app-media.s3-us-west-2.amazonaws.com/blog_media/Saving/saving.png" alt="blog media" alt="blog media">
+            <a href="{% url 'blogpost2-detail' post2.id %}">
+                <img class="article-img" src="{{ post2.media.url}}" alt="blog media"></a>
         </article>
-        <br>
-        <h2>How can I take advantage of this ?</h2>
-        <p>We are fully aware that the world is in crisis, but this also provides an opportunity for us to come up with innovative solutions. In the words of LittleFinger, <a href="https://www.cnbc.com/2020/05/21/american-billionaires-got-434-billion-richer-during-the-pandemic.html">"Chaos is a Ladder".</a>
-             We believe this period can be used to effectively practice saving. This is an opportunity for "future you" to get a massive payday. Trust me, "future you" would be very pleased.</p>
-        <p>So how can we save ?
-            The obvious answer is
-        <ul>
-            <li>Open a savings account (TFSA - Tax Free Savings Account, if you don't have one yet)</li>
-            <li>Put in money that you are not spending currently (savings from not eating out, groceries, going to parties, etc)</li>
-            <ul>
-                <li>Truth is during the pandemic, the probability of of a positive budget is much higher. Your budget surplus. Save it!</li>
-            </ul>
-            <li>Put in additional income you are receiving (CESB)  </li>
-            <ul>
-                <li>The first paycheck is for you .i.e. saving should become a recurring expense in our monthly budgets. A lot of our other expenses have been significantly reduced, so now we can add a new one, payments to our future self. You could honestly just call the expense "Future Self". Personally, thats how I refer to it, payments to my future self.   </li>
-            </ul>
-        </ul>
-        </p>
-        <p>For additional tips on reducing your expenses or increasing your income... Head over to our <a href="https://nine.finance/blog/">Budgeting blog</a></p>
-        <p>In conclusion,
-        <ul>
-            <li>Saving is paying your future self </li>
-            <li>The pandemic presents a golden opportunity to save </li>
-            <li>Having a positive budget and having a future self expense in your budget are 2 practical ways to save. </li>
-        </ul>
-        </p>
-        <p>Don't wait until it's too late! Start saving NOW !</p>
-        <p>Go ahead, create that savings account!</p>
-        <br>
+        <p class="article-content">{{ post2.summary }}</p>
     </div1>
+    <br>
+{% endfor %}
 {%endblock content%}
